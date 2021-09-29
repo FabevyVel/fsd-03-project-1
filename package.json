@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
+    "dev":"lite-server",
+=======
     "dev": "lite-server",
+>>>>>>> 60b5818dfed652476f878d98c115d91096c52c4c
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
