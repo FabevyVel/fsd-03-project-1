@@ -1,11 +1,13 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  width: 850px;
+  width: 760px;
   height: 1025px;
   justify-content: center;
   border: solid;
   border-color:  #313c4e;
- 
+  margin-left: 300px;
+  margin-right: 300px;
+  font-family: Arial;
 }
 #header {
   background-color: #313c4e;
@@ -15,6 +17,7 @@ body {
   padding-right: 40px;
   padding-bottom: 40px;
   padding-left: 40px;
+  width: 550px;
 }
 .name h1 {
   color: #fff;
@@ -26,7 +29,9 @@ body {
 }
 .name p {
   color: white;
-  word-break: break-all;
+  word-break: break-all; 
+  width:600px;
+  text-align: justify;
 }
 #contacts {
   background-color: #222a33;
@@ -35,6 +40,19 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
 }
+#contacts i{
+margin-right: 10px;
+}
+#contacts a{
+  margin-right: 20px;
+  }
+#image img{
+margin-top: 70px;
+margin-right: 50px;
+height: 100px; 
+width:100px;
+
+}
 #contacts a {
   color: white;
 }
@@ -42,35 +60,33 @@ body {
   padding: 30px 40px 10px 30px;
 }
 #workexperience {
-  padding: 30px 40px 10px 30px;
+  padding: 15px 40px 10px 30px;
 }
 #softskills {
   padding: 30px 40px 10px 30px;
 }
 #certificates {
-  padding: 30px 40px 10px 30px;
+  padding: 15px 40px 10px 30px;
 }
 #languages {
-  padding: 30px 40px 10px 30px;
+  padding: 15px 40px 10px 30px;
 }
 #interests {
-  padding: 30px 40px 10px 30px;
+  padding: 15px 40px 10px 30px;
 }
 #personalprojects {
-  padding: 30px 40px 10px 30px;
+  padding: 15px 40px 10px 30px;
 }
 h4 {
   padding-top: 10px;
   padding-bottom: 4px;
 }
-
 .contenthead3 p {
   padding-bottom: 5px;
 }
 #workexperience ul {
   padding: 10px 20px 10px 20px;
 }
-
 #right h3 {
   padding-bottom: 10px;
 }
@@ -87,14 +103,11 @@ h4 {
 #certificates h3 {
   padding-bottom: 0;
 }
-
-
 .content-box1 {
   border: 0px solid white;
   width: 35px;
   background-color: #989da6;
 }
-
 .contenthead1 h3 {
   color: #449399;
 }
@@ -105,20 +118,24 @@ span {
   color: #2fc1cc;
   font-size: 15px;
 }
+#head-content{
+display: flex;
+}
 #leftright{
 display: flex;
-
-width: 850px;
+width: 765px;
 flex-wrap: nowrap;
-
+height: 787px;
 }
 #leftside{
   height: 800px;
-  background-color: brown;
+  width:350px;
+  height: 787px;
   }
   #right{
-    height: 800px;
-    background-color: yellow;
+    height: 787px;
+    margin-left: 0px;
+    padding-left: 0;
     }
   
 
