@@ -43,6 +43,22 @@ ul li::before{
 #right span{
    color: rgb(155, 148, 143);
 }
+#main-contents{
+   display: flex;
+}
+#left,
+#right{
+   width: 50%;
+}
+#header{
+   display: flex;
+}
+.header-left{
+   width: 80%;
+}
+.header-right{
+   width: 20%;
+}
 
 
 
