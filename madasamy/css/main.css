@@ -1,5 +1,11 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
+  width: 850px;
+  height: 1025px;
+  justify-content: center;
+  border: solid;
+  border-color:  #313c4e;
+ 
 }
 #header {
   background-color: #313c4e;
@@ -81,9 +87,7 @@ h4 {
 #certificates h3 {
   padding-bottom: 0;
 }
-#leftright {
-  border: 5px solid #313c4e;
-}
+
 
 .content-box1 {
   border: 0px solid white;
@@ -101,4 +105,20 @@ span {
   color: #2fc1cc;
   font-size: 15px;
 }
+#leftright{
+display: flex;
+
+width: 850px;
+flex-wrap: nowrap;
+
+}
+#leftside{
+  height: 800px;
+  background-color: brown;
+  }
+  #right{
+    height: 800px;
+    background-color: yellow;
+    }
+  
 
