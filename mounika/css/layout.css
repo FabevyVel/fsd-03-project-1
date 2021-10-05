@@ -1,0 +1,36 @@
+body{
+    background-image: url(../copy/resume.jpg);
+    background-position: center top;
+    height: 1750px;
+}
+.container{
+    width: 1142px;
+    margin: auto;
+}
+.fc{
+    display: flex;
+}
+.jc-center{
+    justify-content: center;
+}
+.w-80{
+    width: 80%;
+}
+.w-20{
+    width: 20%;
+}
+.w-50{
+    width: 50%;
+}
+.header{
+    background-color: #313c4e;
+    height: 259px;
+}
+.contacts{
+    background-color: #222a33;
+    height: 60px;
+}
+.main-content{
+    background-color: #fff;
+    height: 1431px;
+}
