@@ -1,0 +1,43 @@
+body{
+    background-image: url("image/resume.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    height: 1750px;    
+}
+.container{
+    
+    width: 1170px;
+    margin: auto;
+}
+.fc{
+    display: flex;
+}
+
+.w80{
+width: 80%;
+}
+.w20{
+  width: 20%;  
+}
+.w50{
+    width: 50%;  
+  }
+.jc{
+    justify-content: center;
+}
+.header{
+    background-color:#313c4e;
+    height:auto;
+}
+.contact{
+    background-color:#222b34;
+    height: 61px;
+}
+.main-content{
+    background-color:#ffffff;
+    height: 1433px;
+}
+.fi img{
+    width: 90px;
+    height: 90px;
+}
