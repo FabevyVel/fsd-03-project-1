@@ -13,7 +13,7 @@ body {
   background-color: #313c4e;
 }
 .name {
-  padding-top: 40px;
+  padding-top: 45px;
   padding-right: 40px;
   padding-bottom: 40px;
   padding-left: 40px;
@@ -21,7 +21,8 @@ body {
 }
 .name h1 {
   color: #fff;
-  font-size: 40px;
+  font-size: 35px;
+  
 }
 .name h4 {
   color: #419195;
@@ -110,6 +111,7 @@ h4 {
 }
 .contenthead1 h3 {
   color: #449399;
+  text-decoration: underline 3px;
 }
 .contenthead2 h4 {
   font: bold;
