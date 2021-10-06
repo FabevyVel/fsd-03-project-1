@@ -30,11 +30,11 @@
     text-align: center;
     font-size: 16px;
     text-size-adjust: 18px;
-    display:flex;
+    
 }
 #contacts a{
-    color: white;
-    text-align:center;
+    color:white;
+    padding-left: 30px;
 }
 #main-content {
     padding-top: 30px;
@@ -42,6 +42,7 @@
     padding-left: 30px;
     padding-right: 30px;
     line-height: 20px;
+    display: flex;
 }
 
 .Content-box h2{
@@ -71,7 +72,45 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     padding-bottom: 20px;
+    padding-right: 43%;
 }
 .highlight-text-3 {
     background-color: red;
+}
+.content-box-detail div{
+    padding-bottom:7px;
+}
+.content-box-tags{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.content-box-tags-1{
+    margin: 4px;
+    background-color: darkgray;
+    padding: 5px;
+    color: white;
+}
+.content-box-tags-2{
+    margin: 4px;
+    border: 1px solid black;
+    padding-top: 3px ;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-left:5px ;
+}
+#header{
+    display: flex;
+}
+.header-left{
+    width: 80%;
+}
+.header-right{
+    width: 20%;
+    align-items: center;
+}
+.header-right img{
+    clip-path: circle();
+    width: 130px;
+    border:2px blue;
 }
