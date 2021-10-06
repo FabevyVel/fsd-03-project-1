@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     background-image: url(../images/resume.jpg);
     background-position: center top;
@@ -62,12 +65,73 @@ body{
 .col-12{
     width: 100%;
 }
+.flex h1{
+    font-size: 25px;
+}
+.flex h3{
+    font-size: 18px;
+}
+.flex h2{
+    font-size: 22px;
+    color: #439096;
+    text-decoration: underline;
+}
+.contacts a{
+    justify-content: center;
+}
 .contacts a {
     color: #fff;
     font-size: 20px;
     font-family: "Times New Roman", Times, serif;
     text-decoration: none;
 }
-.flex h1{
-    font-size: 25px;
+.header h3{
+    color: #439096;
+    font-size: 19px;
 }
+.content-box-detail-1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.content-box-detail-2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.content-box-detail-3{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.content-box-detail-4{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.content-box-detail-5{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.content-box-tags-1{
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+.content-box-tags-2{
+    padding-top: 10px;
+    padding-bottom: 10px;
+} 
+.highlighted-comment-1{
+    color: #439096;
+}
+.highlighted-comment-2{
+    color: #439096;
+}
+
+
+
+
+
+
+
+
+    
+
+
+
