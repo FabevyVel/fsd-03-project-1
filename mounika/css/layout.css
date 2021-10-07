@@ -70,7 +70,7 @@ body{
 }       
 .header{
     padding-top: 48px;
-    padding-bottom: 40x;
+    padding-bottom: 40px;
 }
 .header h1{
     color: white;
@@ -96,9 +96,65 @@ body{
 }
 .contacts a{
     color: white;
-    text-align: center;
-    padding-top: center;
     font-size: 18px;
     font-family: Bahnschrift;
+    padding-top: 10px;
 }
-
+.main-content h2{
+    color: rgb(68 147 154);
+    font-size: 30px;
+    font-family: Bahnschrift;
+    font-weight: bolder;
+    padding-top: 36px;
+    padding-bottom: 5px;
+}
+.main-content h3{
+    color: black;
+    font-size: 29px;
+    font-family: Bahnschrift;
+    font-weight: bolder;
+    padding-top: 15px;
+    padding-bottom: 4px;
+}
+.main-content h4{
+    color: black;
+    font-size: 25px;
+    font-family: Bahnschrift;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
+.main-content span{
+    color: rgb(129 175 168);
+    font-size: 18px;
+    font-family: Bahnschrift;
+    font-weight: light;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+.main-content ul{
+    color: black;
+    font-size: 21px;
+    font-family: Bahnschrift;
+    font-weight: light;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.content-box-Tags{
+    font-size: 25px;
+    font-family: Bahnschrift;
+    padding-top: 8px;
+}
+.content-box-Tag{
+    font-size: 25px;
+    font-family: Bahnschrift;
+    padding-top: 8px;
+}
+.content-box-Tag2{
+    font-size: 25px;
+    font-family: Bahnschrift;
+    padding-top: 8px;
+}
+.main-content{
+    padding-right: 10px;
+}
