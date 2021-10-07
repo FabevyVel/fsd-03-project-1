@@ -12,43 +12,51 @@ body{
 }
 .jc-center{
     justify-content: center;
+    padding-top:  15px;
+    padding-bottom: 5px;
 }
 .fi{
     border: solid 3px;
 }
-.w-10{
-    width: 10%;
+.col-1{
+    width: 8.333%;
 }
-.w-20{
-    width: 20%;
+.col-2{
+    width: 16.666%;
 }
-.w-30{
-    width: 30%;
+.col-3{
+    width: 25%;
 }
-.w-40{
-    width: 40%;
+.col-4{
+    width: 33.333%;
 }
-.w-50{
+.col-5{
+    width: 41.666%;
+}
+.col-6{
     width: 50%;
 }
-.w-60{
-    width: 60%;
+.col-7{
+    width: 58.333%;
 }
-.w-70{
-    width: 70%;
+.col-8{
+    width: 66.666%;
 }
-.w-80{
-    width: 80%;
+.col-9{
+    width: 75%;
 }
-.w-90{
-    width: 90%;
+.col-10{
+    width: 83.333%;
 }
-.w-100{
+.col-11{
+    width: 91.666%;
+}
+.col-12{
     width: 100%;
 }
 .header{
-   background-color: rgb(36, 57, 73); 
-   height: 260px;
+   background-color: rgb(36, 57, 73);
+   height: 260px; 
 }
 .contacts{
    background-color: #122e23;
@@ -57,4 +65,147 @@ body{
 .main-section{
    background-color: #ffff;
    height: 1490px;
+}
+.header-left h1{
+    font-size: 55px;
+}
+.header-left h4{
+    font-size: 30px;
+}
+.header-left p{
+    font-size: 24px;
+}
+.jc-center a{
+    color: white;
+}
+.content-box-1 h2{
+    font-size: 33px;
+    color: #5087b1; 
+    padding-top: 10px;
+}
+.content-box-details .content-box-detail h3{
+    color: black;
+    font-size: 29px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-top: 10px;
+    padding-bottom: 17px;
+}
+.content-box-details .content-box-detail h4{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: normal;
+    font-weight: normal;
+}
+.content-box-details .content-box-detail span{
+    color: #5996c4;
+    font-size: 19px;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: inline-block;
+}
+.content-box-2 h2{
+    font-size: 33px;
+    color: #5087b1;
+    padding-top: 20px;
+}
+.content-box-2 h3{
+    color: black;
+    font-size: 29px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    padding-top: 16px;
+    padding-bottom: 17px;
+}
+.content-box-2 h4{
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    word-spacing: normal;
+    font-weight: bold;
+}
+.content-box-2 span{
+    color: #5996c4;
+    font-size: 19px;
+    padding-left: 10px;
+    padding-top: 10px;
+    display: inline-block;
+}
+.content-box-3 h2{
+    font-size: 33px;
+    color: #5087b1;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.content-box-tags-1 .content-box-tag{
+    font-size: 20px;
+}
+.content-box-4 h2{
+    font-size: 33px;
+    color: #5087b1;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.content-box-details .content-box-detail .project-1 .project-title{
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.content-box-details .content-box-detail .project-1 .project-description{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-box-details .content-box-detail .project-2 .project-title{
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.content-box-details .content-box-detail .project-2 .project-description{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content-box-5 h2{
+    font-size: 33px;
+    color: #5087b1;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.content-box-details .content-box-detail .certificate-1 .event-name-1{
+    font-size: 26px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.content-box-details .content-box-detail .certificate-1 .event-description{
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+}
+.content-box-details .content-box-detail .certificate-2 .event-name-2{
+    font-size: 26px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.content-box-details .content-box-detail .certificate-2 .event-description{
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+}
+.content-box-6 h2{
+    font-size: 33px;
+    color: #5087b1;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.content-box-7 h2{
+    font-size: 33px;
+    color: #5087b1;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
