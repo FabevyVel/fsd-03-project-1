@@ -177,10 +177,35 @@ height: 259px;
     color: teal;
     
 }
-.right-content-4 {
+.right-content-4 h2{
     color:teal ;
-    padding-top: 135px;
-    padding-left: 30px;
+    padding-top: 110px;
+    padding-left: 35px;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.right-contents-4-1{
+    padding-left: 32px;
+    padding-top: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+     
+}
+.right-contents-4-2{
+    padding-left: 32px;
+    padding-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.right-content-4 span{
+    color: teal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right-content-5 h2{
+    color:teal ;
+    padding-top: 75px;
+    padding-left: 35px;
     font-size: 32px;
     font-family: 'Courier New', Courier, monospace;
 
