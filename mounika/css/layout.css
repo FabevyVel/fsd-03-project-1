@@ -1,5 +1,8 @@
+*{
+    box-sizing: border-box;
+}
 body{
-    background-image: url(../copy/resume.jpg);
+    background-image: url(../images/resume.jpg);
     background-position: center top;
     height: 1750px;
 }
@@ -13,24 +16,145 @@ body{
 .jc-center{
     justify-content: center;
 }
-.w-80{
-    width: 80%;
+.col-1{
+    width: 8.33%;
 }
-.w-20{
-    width: 20%;
+.col-2{
+    width: 16.66%;
 }
-.w-50{
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
     width: 50%;
 }
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+.header-right img{
+    width: 100%;
+    border-radius: 50%;
+}
 .header{
-    background-color: #313c4e;
+    background-color:rgb(49 60 78 / 73%);
     height: 259px;
 }
 .contacts{
-    background-color: #222a33;
+    background-color: rgb(34 42 51 / 63%);
     height: 60px;
 }
 .main-content{
-    background-color: #fff;
+    background-color: rgb(255 255 255 / 75%);
     height: 1431px;
+}       
+.header{
+    padding-top: 48px;
+    padding-bottom: 40px;
+}
+.header h1{
+    color: white;
+    font-size: 50px;
+    font-family: Bahnschrift;
+    text-decoration: none;
+    font-weight: lighter;
+    }
+.header h3{
+    color: rgb(66 139 145);
+    font-size: 30px;
+    font-family: Bahnschrift;
+    font-weight: lighter;
+    padding-top: 2px;
+    padding-bottom: 15px;
+}
+.header p{
+    color: white;
+    font-size: 25px;
+    font-family: Bahnschrift;
+    font-weight: lighter;
+    padding-top: 3px;
+}
+.contacts a{
+    color: white;
+    font-size: 18px;
+    font-family: Bahnschrift;
+    padding-top: 10px;
+}
+.main-content h2{
+    color: rgb(68 147 154);
+    font-size: 30px;
+    font-family: Bahnschrift;
+    font-weight: bolder;
+    padding-top: 36px;
+    padding-bottom: 5px;
+}
+.main-content h3{
+    color: black;
+    font-size: 29px;
+    font-family: Bahnschrift;
+    font-weight: bolder;
+    padding-top: 15px;
+    padding-bottom: 4px;
+}
+.main-content h4{
+    color: black;
+    font-size: 25px;
+    font-family: Bahnschrift;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 8px;
+}
+.main-content span{
+    color: rgb(129 175 168);
+    font-size: 18px;
+    font-family: Bahnschrift;
+    font-weight: light;
+    padding-top: 5px;
+    padding-bottom: 50px;
+}
+.main-content ul{
+    color: black;
+    font-size: 21px;
+    font-family: Bahnschrift;
+    font-weight: light;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.content-box-Tags{
+    font-size: 25px;
+    font-family: Bahnschrift;
+    padding-top: 8px;
+}
+.content-box-Tag{
+    font-size: 25px;
+    font-family: Bahnschrift;
+    padding-top: 8px;
+}
+.content-box-Tag2{
+    font-size: 25px;
+    font-family: Bahnschrift;
+    padding-top: 8px;
+}
+.main-content{
+    padding-right: 10px;
 }
