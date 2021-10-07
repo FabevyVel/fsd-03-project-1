@@ -1,5 +1,5 @@
 *{
-    box-shadow: border-box;
+
     font-family:sans-serif,arial;
 }
 
@@ -151,10 +151,6 @@ body{
 .content-right{
     padding-left: 32px;
 }
-.content-right.content-box h2{
-    padding-bottom: 10px;
-
-}
 .content-box-tags-1 {
     display: flex;
     flex-wrap: wrap;
@@ -183,12 +179,11 @@ body{
     font-style: italic;
 }
 .content-box-tags-2{
-  color:black;
-}
-.content-box-tags-2{
     display:flex;
+    color:black;
     column-gap: 10px;
     width: 424px;
+    padding-top: 15px;
 }
 .content-box-tags{
     border:solid #bebebe 2px;
