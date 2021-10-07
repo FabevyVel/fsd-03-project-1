@@ -84,10 +84,7 @@ body{
 }
 .about-right img{
     width: 100%;
-    border-radius: 50%; 
-    /* border: solid blue; */
-}
-
+    border-radius: 50%;
 }
 .contact{
     background-color:#222b34 ;
