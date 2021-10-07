@@ -1,94 +1,118 @@
- #header{
+#header {
     background-color: #313c4e;
-    padding-top: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
-    padding-left: 40px;
-}
-#header h1{
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+  }
+  #header h1 {
     color: white;
-    font-size: 30px;
-    font-family: Bahnschrift;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
-    font-weight: lighter;
-}
-#header h3{
+    padding-bottom: 5px;
+  }
+  #header h3 {
     color: rgb(66 139 145);
     font-size: 20px;
-    font-family: Bahnschrift;
-    font-weight: lighter;
-    padding-bottom: 15px;
-}
-#header p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-bottom: 10px;
+  }
+  #header p {
     color: white;
     font-size: 15px;
-    font-family: Bahnschrift;
-    font-weight: lighter;
-}
-#contact{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-right: 500px;
+  }
+  #contact {
     background-color: rgb(34 42 51);
     text-align: center;
+    font-size: 10px;
+    text-size-adjust: 18px;
     padding-top: 10px;
     padding-bottom: 10px;
-}
-#contact a{
+  }
+  #contact a {
     color: white;
-    font-size: 13px;
-    font-family: Bahnschrift;
-    font-weight: lighter;
-}
-#main-content h2{
-    color: rgb(68 147 154);
-    font-size: 23px;
-    font-family: Bahnschrift;
-    font-weight: bolder;
-    padding-top: 20px;
-    padding-bottom: 5px;
-}
-#main-content h3{
-    color: black;
+    padding-left: 15px;
     font-size: 20px;
-    font-family: Bahnschrift;
-    font-weight: bolder;
-    padding-bottom: 4px;
-}
-#main-content h4{
+  }
+  #main-content {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  #left {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    float: left;
+  }
+  #right {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    float: right;
+  }
+  #main-content h2 {
+    color: #449399;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+    padding-top: 20px;
+    padding-bottom: 10px;
+  }
+  .content-box-detail h3 {
     color: black;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 3px;
+    text-decoration: none;
+  }
+  .content-box-detail p {
+    color: black;
+    font-size: 17;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 3px;
+  }
+  .content-box-detail h4 {
+    color: black;
+  }
+  .highlight-text-1 {
+    color: #378cb6;
+    font-style: italic;
     font-size: 15px;
-    font-family: Bahnschrift;
-    font-weight: bolder;
-    padding-bottom: 4px;
-}
-#main-content span{
-    color: rgb(155 165 161);
-    font-size: 13px;
-    font-family: Bahnschrift;
-    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-left: 10px;
     padding-bottom: 20px;
-}
-#main-content ul{
+  }
+  .highlight-text-2 {
+    color: #423b4b;
+    font-style: italic;
+    padding-bottom: 5px;
+  }
+  .content-box-tag-1 {
+    border: 2px solid #a1abbe;
+    padding: 3px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    width: 80px;
+    background-color: darkgray;
+    font-size: 15px;
+    color: white;
+  }
+  .content-box-tag-2 {
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    width: 100px;
+    background-color: white;
+    font-size: 15px;
     color: black;
-    font-size: 14px;
-    font-family: Bahnschrift;
-    font-weight: bold;
-    padding-top: 15px;
-    padding-bottom: 20px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  }
+  
