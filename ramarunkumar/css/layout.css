@@ -1,0 +1,159 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+     box-sizing: border-box;
+     line-height: 1.5;
+     margin: 0;
+     padding: 0;
+     
+}
+body{
+
+ }
+ .container{
+     width: 1200px;
+     margin: auto;
+ }
+ .fc{
+     display: flex;
+ }
+ .jc-center{
+     justify-content: center;
+ }
+ 
+ .col-1{
+      width: 8.33%;
+ }
+ .col-2{
+     width: 16.66%;
+ }
+ .col-3{
+      width: 25%;
+ }
+ .col-4{
+      width: 33.33%;
+ }
+ 
+ .col-5{
+     width: 41.66%;
+ }
+ .col-6{
+      width: 50%;
+ }
+ .col-7{
+      width: 58.33%;
+ }
+ .col-8{
+     width: 66.66%;
+ }
+ .col-9{
+      width: 75%;
+ }
+ .col-10{
+      width: 83.33%;
+ }
+ .col-11{
+     width: 91.66;
+ }
+ .col-12{
+     width:100;
+ }
+
+/* ----------------------header-------------------- */
+.header{
+    padding: 20px;
+     background-color: #313c4e; 
+ }
+ .header-left{
+    padding: 10px;
+}
+.header-left h1{
+    color: white;
+    font-size: 30px;
+}
+.header-left h4{
+    color: #419199;
+    font-size: 20px;
+}
+.header-left p{
+    color: white;
+    font-size: 20px;
+}
+
+.header-right{
+    padding: 10px;
+}
+.header-right img{
+    width: 160px;
+    border-radius: 50%; 
+    border: 3px solid #419199;
+}
+
+/* ------------------contact------------------------ */
+
+.contact{
+    text-align: center;   
+    width: 100%;
+    background-color: #222a33;
+    padding:7px;
+   
+}
+.contact a{
+    text-decoration: none;
+    color : white;
+    padding-right: 20px;
+    padding:10px;  
+}
+a:hover{
+    background: rgb(68 147 153);
+}
+/* ------------------Main-section------------------ */
+.main-section{
+     background-color: #fff;
+ }
+ #left{
+     padding: 20px;
+ }
+ #right{
+     padding: 20px;
+ }
+ .w-48{
+    width: 48%;
+}
+.highlighted-text{
+    display: flex;
+    color: #419199;
+    justify-content: space-between;
+}
+
+.content-box h2{
+    font-size: 20px;
+}
+.content-box{
+    padding-top: 10px;
+}
+.content-box-tag{
+    padding: 3px;
+}
+.content-box-details{
+    padding-bottom: 15px;;
+}
+.content-box-details h3{
+    font-size: 17px;
+}
+h2{
+    text-decoration: underline;
+    text-decoration-color: rgb(68 147 153);
+    text-decoration-thickness: 5px;
+    color: rgb(68 147 153);
+    padding-bottom: 7px;
+}
+.content-box-tag span{
+    padding: 6px;
+    width: 100px;
+    background-color: #313c4e;
+    border-radius: 10%;
+    border: 1px solid rgb(68 147 153);
+    margin-bottom: 2px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}

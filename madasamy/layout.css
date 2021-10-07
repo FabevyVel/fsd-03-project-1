@@ -1,43 +1,205 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-image: url("image/resume.jpg");
     background-repeat: no-repeat;
     background-position: center top;
-    height: 1750px;    
-}
+    height: 1750px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    font-family: Arial;
+  }    
+
 .container{
     
     width: 1170px;
     margin: auto;
+    
 }
 .fc{
     display: flex;
 }
-
-.w80{
-width: 80%;
+.col-1{
+    width: 8.33%;
 }
-.w20{
-  width: 20%;  
+.col-2{
+    width: 16.66%;
 }
-.w50{
-    width: 50%;  
-  }
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;  
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+ 
 .jc{
     justify-content: center;
 }
 .header{
     background-color:#313c4e;
-    height:auto;
+    height: 258px;
 }
+
+.top{
+    padding-top: 43px;
+   padding-left: 30px;
+}
+.top h1 {
+    color: #fff;
+    font-size: 53px;
+    
+  }
+  .top h4 {
+    color: #419195;
+    padding-top: 7px;
+    padding-bottom: 20px;
+    font-size: 30px;
+  }
+  .top p{
+      font-size: 20px;
+  }
+  #img{
+      width: 50px;
+      height: 50px;
+  }
+
+
 .contact{
     background-color:#222b34;
     height: 61px;
 }
 .main-content{
     background-color:#ffffff;
-    height: 1433px;
+    height: 1431px;
 }
 .fi img{
     width: 90px;
     height: 90px;
 }
+
+
+  .name {
+    padding-top: 45px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    
+  }
+  
+  .name p {
+    color: white;
+    word-break: break-all; 
+    
+    text-align: justify;
+  }
+  #contacts {
+    background-color: #222a33;
+    color: white;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  #contacts i{
+  margin-right: 10px;
+  }
+  #contacts a{
+    margin-right: 20px;
+    }
+  #image img{
+  margin-top: 70px;
+  margin-right: 50px;
+  
+  
+  }
+  #contacts a {
+    color: white;
+  }
+  #education {
+    padding: 30px 40px 10px 30px;
+  }
+  #workexperience {
+    padding: 15px 40px 10px 30px;
+  }
+  #softskills {
+    padding: 30px 40px 10px 30px;
+  }
+  #certificates {
+    padding: 15px 40px 10px 30px;
+  }
+  #languages {
+    padding: 15px 40px 10px 30px;
+  }
+  #interests {
+    padding: 15px 40px 10px 30px;
+  }
+  #personalprojects {
+    padding: 15px 40px 10px 30px;
+  }
+  h4 {
+    padding-top: 10px;
+    padding-bottom: 4px;
+  }
+  .contenthead3 p {
+    padding-bottom: 5px;
+  }
+  #workexperience ul {
+    padding: 10px 20px 10px 20px;
+  }
+  #right h3 {
+    padding-bottom: 10px;
+  }
+  #personalprojects ul {
+    padding-left: 20px;
+    padding-bottom: 10px;
+  }
+  #personalprojects p {
+    padding-bottom: 10px;
+  }
+  #certificates p {
+    padding-top: 10px;
+  }
+  #certificates h3 {
+    padding-bottom: 0;
+  }
+  .content-box1 {
+    border: 0px solid white;
+    width: 35px;
+    background-color: #989da6;
+  }
+  .contenthead1 h3 {
+    color: #449399;
+    text-decoration: underline 3px;
+  }
+  .contenthead2 h4 {
+    font: bold;
+  }
+  span {
+    color: #2fc1cc;
+    font-size: 15px;
+  }

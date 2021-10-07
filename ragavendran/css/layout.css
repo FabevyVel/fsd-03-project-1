@@ -1,0 +1,119 @@
+body{
+    background-image: url(../doc/resume.jpg);
+    background-position: center top;
+    height: 1750px;
+}
+.container{
+    width: 1142px;
+    margin: 0 auto;
+}
+.fc{
+    display: flex;
+}
+.jc-center{
+    justify-content: center;
+}
+.fi{
+    border: solid 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.col-1{
+    width: 8.3333333333%;
+}
+.col-2{
+    width: 16.6666666667%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.3333333333%;
+}
+.col-5{
+    width: 41.6666666667%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.3333333333%;
+}
+.col-8{
+    width: 66.6666666667%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.3333333333%;
+}
+.col-11{
+    width: 91.6666666667%;
+}
+.col-12{
+    width: 100%;
+}
+.header{
+    background-color: #313c4e;
+    height: 259px;
+}
+.contacts{
+    background-color: #222a33;
+    height: 60px;
+}
+.main-section{
+    background-color: #fff;
+    height: 1431px;
+}
+.header-left h1{
+    font-size: 48px;
+    color: #fff;
+    padding-top: 47px;
+}
+.header-left h4{
+    font-size: 32px;
+    color:rgb(61, 141, 152) ;
+    padding-bottom: 30px;
+}
+.header-left p{
+    font-size: 25px;
+    color: #fff;
+}
+.fi-1 a{
+    font-size: 25px;
+    color: white;
+    padding-top: 17px;
+    display: inline-block;
+}
+.fi-2 a{
+    font-size: 25px;
+    color: white;
+    padding-top: 17px;
+    padding-left: 63px;
+    padding-right: 63px;
+    display: inline-block;
+}
+.fi-3 a{
+    font-size: 25px;
+    color: white;
+    padding-top: 17px;
+    display: inline-block;
+}
+.contents-box h2{
+    font-size: 30px;
+    padding-top: 30px;
+    color:rgb(68, 147, 153);
+}
+.contents-box-detail h3{
+    font-size: 30px;
+    padding-top: 20px;
+}
+.contents-box-detail h4{
+    font-size: 26px;
+    padding-top: 5px;
+}
+.highlight-text-1{
+    font-size: 21px;
+    color: rgb(68, 147, 153);
+}
