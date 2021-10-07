@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/resume.jpg);
+    background-position: center top;
+    height: 1750px;
+}
+.container{
+    width: 1142px;
+    margin: auto;
+}
+.fc{
+    display: flex;
+}
+.jc-center{
+    justify-content: center;
+}
+.col-1{
+    width: 8.33%;
+}
+.col-2{
+    width: 16.66%;
+}
+.col-3{
+    width: 25%;
+}
+.col-4{
+    width: 33.33%;
+}
+.col-5{
+    width: 41.66%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.33%;
+}
+.col-8{
+    width: 66.66%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33%;
+}
+.col-11{
+    width: 91.66%;
+}
+.col-12{
+    width: 100%;
+}
+.header-right img{
+    width: 100%;
+    border-radius: 50%;
+}
+.header{
+    background-color:rgb(49 60 78 / 73%);
+    height: 259px;
+}
+.contacts{
+    background-color: rgb(34 42 51 / 63%);
+    height: 60px;
+}
+.main-content{
+    background-color: rgb(255 255 255 / 75%);
+    height: 1431px;
+}       
+.header{
+    padding-top: 48px;
+    padding-bottom: 40x;
+}
+.header h1{
+    color: white;
+    font-size: 50px;
+    font-family: Bahnschrift;
+    text-decoration: none;
+    font-weight: lighter;
+    }
+.header h3{
+    color: rgb(66 139 145);
+    font-size: 30px;
+    font-family: Bahnschrift;
+    font-weight: lighter;
+    padding-top: 2px;
+    padding-bottom: 15px;
+}
+.header p{
+    color: white;
+    font-size: 25px;
+    font-family: Bahnschrift;
+    font-weight: lighter;
+    padding-top: 3px;
+}
+.contacts a{
+    color: white;
+    text-align: center;
+    padding-top: center;
+    font-size: 18px;
+    font-family: Bahnschrift;
+}
+
