@@ -125,6 +125,7 @@ body{
     font-size: 29px;
 }
 .content-box-1 .highlighted{
+    color: #439096;
     font-size: 23px;
     display: inline-block;
     padding-top: 11px;
@@ -144,11 +145,13 @@ body{
     font-size: 29px;
 }
 .content-box-2 .highlighted{
+    color: #439096;
     font-size: 23px;
     display: inline-block;
     padding-top: 10px;
 }
 .content-box-2 .highlighted-1{
+    color: #439096;
     font-size: 23px;
     display: inline-block;
     padding-top: 9px;
@@ -198,6 +201,7 @@ body{
     font-size: 24px;
 }
 .content-box-5 .highlighted-2{
+    color: #439096;
     font-size: 21px;
     padding-top: 3px;
     padding-bottom: 19px;
