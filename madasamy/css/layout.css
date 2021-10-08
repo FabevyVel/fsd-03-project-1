@@ -2,10 +2,14 @@
 box-sizing: border-box;
 }
 body{
- background-image: url(../image/resume.jpg);
+ /*background-image: url(../image/resume.jpg);*/
  background-repeat: no-repeat;
  background-position: center top;
  font-family: Arial, Helvetica, sans-serif;
+}
+.image{
+  margin-left: 1px;
+  margin-right: 10px;
 }
 .container{
   
@@ -87,19 +91,17 @@ font-size: 53px;
 }
 #personalprojects {
   padding: 0px 40px 10px 0px;
-  margin-top: 99px;
+  margin-top: 27px;
+  
 }
-#certificates {
-  padding: 15px 40px 10px 0px;
-  margin-top: 160px;
+#certificates{
+  padding-top: 20px;
 }
-#languages {
-  padding: 60px 40px 10px 0px;
-  margin-top: 101px;
+#languages{
+  padding-top: 38px;
 }
-#interests {
-  padding: 15px 40px 10px 0px;
-  margin-top: 131px;
+#interests{
+  padding-top: 40px;
 }
 
 h4 {
@@ -120,7 +122,7 @@ h4 {
   color: #449399;
 }
 .cgpa{
-  padding-left: 306px;
+  padding-left: 233px;
   padding-top: 17px;
   color: #449399;
   font-size: 17px;
@@ -148,6 +150,7 @@ h4 {
 }
 
 .content-box1 {
+
   border: 0px solid white;
   width: 35px;
   background-color: #989da6;
@@ -178,14 +181,74 @@ h4 {
 .para ul{
   padding: 30px 10px 10px 24px;
   font-size: 20px;
+  color: #2fc1cc;
 }
 
+.para1 ul{
+  padding: 1px 10px 10px 24px;
+  font-size: 20px;
+  color: #2fc1cc;
+}
+.par1 p{
+  padding-top: 27px;
+  font-size: 26px;
+}
+.paraheat{
+padding-top: 25px;
+font-size: 23px;
+}
+.parades{
+padding-bottom: 0px;
+font-size: 16px;
+padding-top: 5px;
 
-
-
-
-
-
+}
+.parahead{
+  padding-top: 29px;
+  font-size: 23px;
+  }
+  .paraint{
+    padding-top: 3px;
+    padding-bottom: 50px;
+  }
+.fi1{
+  padding-top: 20px;
+}
+.fi2{
+  padding-top: 24px;
+  padding-left: 149px;
+  font-size: 20px;
+}
+.fi2 span{
+font-size: 16px;
+}
+.lan1 span{
+  padding-top: 10px;
+  font-size: 16px;
+ 
+}
+.lan span{
+padding-top: 10px;
+  font-size: 16px;
+  
+}
+.lan1 p{
+  padding-top: 2px;
+  font-size: 21px;
+}
+.lan p{
+  padding-top: 38px;
+  font-size: 23px;
+  padding-bottom: 5px;
+}
+#paraint{
+  padding-top: 31px;
+  padding-bottom: 85px;
+}
+#paraint button{
+  padding:10px;
+  font-size:28px;
+}
 
 
 
@@ -201,7 +264,7 @@ h4 {
   display: flex;
 }
 .fi{
-  border:solid black 2px;
+  
   padding-left: 37px;
   
 }
