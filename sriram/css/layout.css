@@ -121,12 +121,20 @@ body{
 .content-box-1 h4{
     font-size: 29px;
 }
-.content-box-1 .highlighted{
+.content-box-1 .highlighted-1{
     color: #439096;
     font-size: 23px;
     display: inline-block;
     padding-top: 11px;
     padding-bottom: 34px;
+}
+.content-box-1 .highlighted-2{
+    color: #439096;
+    font-size: 23px;
+    display: inline-block;
+    padding-top: 11px;
+    padding-bottom: 34px;
+    padding-left: 330px;
 }
 .content-box-2 h2{
     font-size: 29px;
@@ -141,17 +149,18 @@ body{
 .content-box-2 h4{
     font-size: 29px;
 }
-.content-box-2 .highlighted{
+.content-box-2 .highlighted-1{
     color: #439096;
     font-size: 23px;
     display: inline-block;
     padding-top: 10px;
 }
-.content-box-2 .highlighted-1{
+.content-box-2 .highlighted-2{
     color: #439096;
     font-size: 23px;
     display: inline-block;
     padding-top: 9px;
+    padding-left: 297px;
 }
 .content-box-2 .description{
     font-size: 24px;
@@ -218,13 +227,14 @@ body{
     font-size: 18px;
     display: inline-block;
     padding-top: 4px;
-    padding-bottom: 8px;
+    padding-bottom: 23px;
 }
 .content-box-7 h2{
     font-size: 29px;
-    padding-top: 68px;
+    padding-top: 30px;
     padding-bottom: 23px;
-    color: #439096;  
+    color: #439096; 
+    text-decoration: underline; 
 }
 .content-box-7 .content-box-tags-2{
     font-size: 22px;
