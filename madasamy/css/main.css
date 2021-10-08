@@ -8,6 +8,7 @@ body {
   margin-left: 300px;
   margin-right: 300px;
   font-family: Arial;
+  background-image: url("image/resume.jpg");
 }
 #header {
   background-color: #313c4e;
