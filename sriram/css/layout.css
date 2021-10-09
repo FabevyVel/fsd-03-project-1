@@ -42,6 +42,8 @@ body{
 .flex p{
     font-size: 25px;
     color: white;
+    font-family: 'Cormorant', serif;
+    line-height: 29px;
 }
 .contacts .flex-1 a{
     color: #fff;
@@ -179,6 +181,12 @@ body{
     font-size: 22px;
     padding-bottom: 16px;
 }
+.content-box-3 .content-box-tags-1 .content-box-tag{
+     display: inline-block;
+     margin: 8px;
+     background-color: gainsboro;
+}
+
 .content-box-4 h2{
     font-size: 29px;
     padding-bottom: 21px;
@@ -238,6 +246,11 @@ body{
 }
 .content-box-7 .content-box-tags-2{
     font-size: 22px;
+}
+.content-box-7 .content-box-tags-2 .content-box-tag{
+    display: inline-block;
+    margin: 8px;
+    background-color: gainsboro;
 }
 
 
