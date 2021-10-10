@@ -6,7 +6,6 @@
 body{
    background-image: url(../design/resume.jpg);
    background-position: center top;
-   height: 1750px;
    font-family:'Average Sans', sans-serif;
 }
 .container{
@@ -62,10 +61,11 @@ body{
 }
 .about{
     background-color:#313c4e;
+    padding-top: 35px;;
 }
 .about-left h1{ 
     color: white;
-    padding-top:43px;
+    padding-top:5px;
     font-size:50px;
     text-decoration:none;
     font-weight: lighter;
@@ -80,7 +80,7 @@ body{
 .about-left p{
     color:white;
     font-size:22px;
-    padding-bottom:28px;
+    padding-bottom:40px;
 }
 .about-right img{
     width: 100%;
@@ -88,8 +88,8 @@ body{
 }
 .contact{
     background-color:#222b34 ;
-    padding-top:15px;
-    padding-bottom: 30px;
+    padding-top:20px;
+    padding-bottom: 20px;
 }
 .contact a{
     color:white;
