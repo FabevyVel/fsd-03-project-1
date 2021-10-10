@@ -1,0 +1,195 @@
+*{
+
+box-sizing:border-box;
+
+}
+    
+    
+body{
+background-image: url(../doc/resume.jpg);
+background-position: center top;
+height: 1750px;
+
+}
+.container{
+    
+    width: 1142px;
+    margin: 0 auto;
+}
+
+.fc{
+display: flex;
+
+}
+.jc-center{
+
+    justify-content: center;
+}
+
+.fi{
+    border: solid 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.col-1{
+    width:8.333333333333333% ;
+}
+
+.col-2{
+    width: 16.66666666666667%;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.col-4{
+    width: 33.33333333333333%;
+}
+
+.col-5{
+    width: 41.66666666666667%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-7{
+    width: 58.33333333333333%;
+}
+
+.col-8{
+    width: 66.66666666666667%;
+}
+
+.col-9{
+    width: 75;
+}
+
+
+.col-10{
+    width: 83.33333333333333%;
+}
+
+.col-11{
+    width:91.66666666666667%;
+}
+
+.col-12{
+    width: 100%;
+}
+#left{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+#right{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+
+.header{
+    background-color: #313c4e;
+    height: 259px;
+    padding-top: 30px;
+    padding-right: 0px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.highlighted-text {
+    font-size: 15px;
+    color: #438f80;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    padding-bottom: 20px;
+    padding-right: 43%;
+}
+
+.content-box h2{
+    color: #419199;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+.header-left h1{
+    color: white;
+    font-size: 40px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+    
+}
+.header-left h4{
+    color: #419199;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;
+}
+.header-left p{
+    color: white;
+    font-size: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: none;}
+    
+
+ 
+
+.header-right img{
+
+width: 100%;
+border-radius: 50%;
+border: solid 4px;
+
+}
+
+.contacts{
+    background-color: #222a33;
+    text-align: center;
+    font-size: 16px;
+    text-size-adjust: 18px;
+}
+
+.contacts a{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    text-size-adjust: 18px;
+}
+.main-section{
+    background-color: white;
+    height: 1430px;padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height: 20px;
+    display: flex;
+}
+.content-box-tags{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.content-box-tags-1{
+    margin: 4px;
+    background-color: darkgray;
+    padding: 5px;
+    color: white;
+    
+}
+
+
+.content-box-tags span{
+    margin: 4px;
+    border: 1px solid black;
+    padding-top: 3px ;
+    padding-right: 5px;
+    padding-bottom: 3px;
+    padding-left:5px ;
+}

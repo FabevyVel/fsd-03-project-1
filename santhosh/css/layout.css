@@ -1,0 +1,264 @@
+body{
+background-image: url(../doc/resume\ \(1\).jpg);
+background-position: center top;
+
+}
+.container{
+
+    width: 1142px;
+    margin: auto;
+    
+}
+.fc{
+    display: flex;
+}
+.jc-center{
+    justify-content: center;
+}
+.jc-sb{
+    justify-content: space-between;
+}
+.fi{
+    
+}
+
+.col-1{
+    width: 8.33333333%;
+}
+.col-2{
+    width:16.66666667%;
+}
+.col-3{
+    width:25%;
+}
+.col-4{
+    width:33.33333333%;
+}
+.col-5{
+    width:41.66666667%;
+}
+.col-6{
+    width: 50%;
+}
+.col-7{
+    width: 58.333333333%;
+}
+.col-8{
+    width: 66.66666667%;
+}
+.col-9{
+    width: 75%;
+}
+.col-10{
+    width: 83.33333333%;
+}
+.col-11{
+    width: 91.66666667%;
+}
+.col-12{
+    width: 100%;
+}
+
+.header{
+background-color: hsl(217deg 23% 25%);
+height: 259px;
+}
+.header-left{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.header-right img{
+    width:100%;
+    border-radius: 50%;
+    
+}
+.header-left h1{
+    color:white;
+    font-size: 55px;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+.header-left h3{
+    color:#419199;
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+.header-left p{
+    color:white;
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 24px;
+}
+
+
+.contact{
+    background-color: #222a33;
+    height: 61px;
+}
+.contact a{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    display:inline-block;
+    padding: 15px 20px;
+
+}
+
+.left-contents h2{
+    color:teal;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 33px;
+    padding-top: 30px;
+    
+}
+.left-contents h3{
+    color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 25px;
+    padding-bottom:20px;
+    font-size: 25px;
+}
+.left-contents h4{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    padding-bottom: 10px;
+    padding-top: 2px;
+}
+.left-content span {
+    color: teal;
+    
+}
+.left span{
+    color: teal;
+}
+.left-box-2 h2{
+    color: teal;
+    padding-top: 45px;
+}
+.right-contents-1 h2{
+    color:teal ;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace
+
+}
+.div-box div{
+    display: inline-block;
+    color: black;
+    padding-left: 40px;
+    padding-top: 30px;
+    font-size: 25px;
+    border:solid 2px;
+    margin: 10px;
+    
+    
+}
+
+.right-content-2 h2{
+    color:teal ;
+    padding-top: 35px;
+    padding-left: 30px;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.right-content-2 h4{
+    color: blueviolet;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 25px;
+}
+.right-content-2 ul{
+    padding-left: 40px;
+    padding-top: 30px;
+    font-size: 25px;
+}
+.right-content-3 h2{
+    color:teal ;
+    padding-top: 118px;
+    padding-left: 30px;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.right-content-3 p{
+    padding-top: 60px;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding-left: 20px;
+    font-size: 20px;
+}
+.right-content-3 h3{
+    padding-top: 60px;
+    padding-left: 40px;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.right-content-3 span{
+    padding-left: 39px;
+    color: teal;
+    
+}
+.right-content-4 h2{
+    color:teal ;
+    padding-top: 110px;
+    padding-left: 35px;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.right-contents-4-1{
+    padding-left: 32px;
+    padding-top: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+     
+}
+.right-contents-4-2{
+    padding-left: 32px;
+    padding-top: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.right-content-4 span{
+    color: teal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.right-content-5 h2{
+    color:teal ;
+    padding-top: 75px;
+    padding-left: 35px;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.right-content-5 ul{
+    padding-left: 50px;
+    padding-top: 20px;
+    
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div-box-1 div{
+    display: inline-block;
+    color: black;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 25px;
+    border: solid 5px;
+    
+}
+
+.main-section u{
+    color: teal;
+}
+
+
+
+
+.main-section{
+background-color: rgb(255 255 255 / 98%);
+height: 1430px;
+}
