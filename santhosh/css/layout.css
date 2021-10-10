@@ -15,8 +15,11 @@ background-position: center top;
 .jc-center{
     justify-content: center;
 }
+.jc-sb{
+    justify-content: space-between;
+}
 .fi{
-    border: solid 3px;
+    
 }
 
 .col-1{
@@ -143,14 +146,18 @@ height: 259px;
     font-family: 'Courier New', Courier, monospace
 
 }
-.div-box{
+.div-box div{
+    display: inline-block;
     color: black;
-    padding-left: 30px;
+    padding-left: 40px;
     padding-top: 30px;
-    font-size: 35px;
+    font-size: 25px;
+    border:solid 2px;
+    margin: 10px;
     
-
+    
 }
+
 .right-content-2 h2{
     color:teal ;
     padding-top: 35px;
@@ -230,8 +237,18 @@ height: 259px;
 .right-content-5 ul{
     padding-left: 50px;
     padding-top: 20px;
+    
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+}
+.div-box-1 div{
+    display: inline-block;
+    color: black;
+    padding-left: 30px;
+    padding-top: 30px;
+    font-size: 25px;
+    border: solid 5px;
+    
 }
 
 .main-section u{
