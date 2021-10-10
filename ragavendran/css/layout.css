@@ -1,7 +1,7 @@
 body{
-    background-image: url(../doc/resume.jpg);
     background-position: center top;
     height: 1750px;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
 }
 .container{
     width: 1142px;
@@ -12,11 +12,6 @@ body{
 }
 .jc-center{
     justify-content: center;
-}
-.fi{
-    border: solid 3px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 .col-1{
     width: 8.3333333333%;
@@ -66,6 +61,12 @@ body{
     background-color: #fff;
     height: 1431px;
 }
+#left{
+    padding: 20px;
+}
+#right{
+    padding: 20px;
+}
 .header-left h1{
     font-size: 48px;
     color: #fff;
@@ -79,6 +80,11 @@ body{
 .header-left p{
     font-size: 25px;
     color: #fff;
+}
+.header-right img{
+    width: 100%;
+    border-radius: 50%;
+    border: solid 4px rgb(68, 147, 153);
 }
 .fi-1 a{
     font-size: 25px;
@@ -104,6 +110,9 @@ body{
     font-size: 30px;
     padding-top: 30px;
     color:rgb(68, 147, 153);
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    padding-bottom: 6px;
 }
 .contents-box-detail h3{
     font-size: 30px;
@@ -111,9 +120,53 @@ body{
 }
 .contents-box-detail h4{
     font-size: 26px;
+    font-weight: 400;
     padding-top: 5px;
 }
-.highlight-text-1{
+.highlighted-text{
     font-size: 21px;
     color: rgb(68, 147, 153);
+    display: flex;
+    justify-content: space-between;
+}
+.content-box-tag span{
+    padding: 15px;
+    width: 100px;
+    background-color: #a6aab1;
+    border-radius: 15px;
+    border: 5px solid;
+    margin-bottom: 2px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 10px;
+    display: inline-block;
+    font-size: 19px;
+}
+.content-box-detail h5{
+    font-size: 25px;
+}
+.content-box-detail ul{
+    font-size: 22px;
+    list-style-position: inside;
+}
+.content-box-detail p{
+    font-size: 22px;
+    color: #a6aab1;
+}
+.content-box-tag-1 span{
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    border: 3px solid #a6aab1;
+    margin-bottom: 2px;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 11px;
+    display: inline-block;
+}
+#right ul{list-style: none;} 
+ul li::before{
+   content:"\2022";
+   color:rgb(68, 147, 153) ;
+   padding-right: 10px;
 }
