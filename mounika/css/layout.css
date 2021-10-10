@@ -96,9 +96,13 @@ body{
 }
 .contacts a{
     color: white;
-    font-size: 18px;
+    display: inline-block;
+    font-size: 19px;
     font-family: Bahnschrift;
-    padding-top: 10px;
+    padding-top: 21px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .main-content h2{
     color: rgb(68 147 154);
@@ -155,6 +159,9 @@ body{
     font-family: Bahnschrift;
     padding-top: 8px;
 }
-.main-content{
-    padding-right: 10px;
+#left{
+    padding-right: 60px;
+}
+#left{
+    padding-right: 60px;
 }
