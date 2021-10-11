@@ -136,7 +136,7 @@ body{
     display: inline-block;
     padding-top: 11px;
     padding-bottom: 34px;
-    padding-left: 330px;
+    padding-left: 280px;
 }
 .content-box-2 h2{
     font-size: 29px;
@@ -162,7 +162,7 @@ body{
     font-size: 23px;
     display: inline-block;
     padding-top: 9px;
-    padding-left: 297px;
+    padding-left: 280px;
 }
 .content-box-2 .description{
     font-size: 24px;
@@ -200,6 +200,7 @@ body{
 .content-box-4 .description{
     font-size: 23px;
     padding-bottom: 23px;
+    padding-left: 25px;
 }
 .content-box-4 .content-box-detail-2{
     padding-top: 13px;
