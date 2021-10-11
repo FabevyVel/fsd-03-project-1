@@ -4,14 +4,13 @@
      line-height: 1.5;
      margin: 0;
      padding: 0;
+     
 }
 body{
-     background-image: url(../doc/resume.jpg);
-     background-position: center top;
-     
+
  }
  .container{
-     width: 1147px;
+     width: 1200px;
      margin: auto;
  }
  .fc{
@@ -61,8 +60,8 @@ body{
 
 /* ----------------------header-------------------- */
 .header{
-     background-color: #313c4e;
-     
+    padding: 20px;
+     background-color: #313c4e; 
  }
  .header-left{
     padding: 10px;
@@ -73,16 +72,18 @@ body{
 }
 .header-left h4{
     color: #419199;
+    font-size: 20px;
 }
 .header-left p{
     color: white;
+    font-size: 20px;
 }
 
 .header-right{
     padding: 10px;
 }
 .header-right img{
-    width: 130px;
+    width: 160px;
     border-radius: 50%; 
     border: 3px solid #419199;
 }
@@ -94,6 +95,7 @@ body{
     width: 100%;
     background-color: #222a33;
     padding:7px;
+   
 }
 .contact a{
     text-decoration: none;
@@ -109,17 +111,20 @@ a:hover{
      background-color: #fff;
  }
  #left{
-    padding: 5px;
+     padding: 20px;
+ }
+ #right{
+     padding: 20px;
+ }
+ .w-48{
+    width: 48%;
 }
 .highlighted-text{
     display: flex;
     color: #419199;
-    padding-right: 80px;
+    justify-content: space-between;
 }
 
-#right{
-    padding: 5px;
-}
 .content-box h2{
     font-size: 20px;
 }
@@ -130,8 +135,7 @@ a:hover{
     padding: 3px;
 }
 .content-box-details{
-    padding-bottom: 15px;;
-}
+    padding-bottom: 15px;;}
 .content-box-details h3{
     font-size: 17px;
 }
