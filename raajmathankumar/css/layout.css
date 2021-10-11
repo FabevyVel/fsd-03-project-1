@@ -116,7 +116,7 @@ h4{
     /* contacts */
 .contacts{
     background-color: #222a33;
-    padding: 7px;
+    padding: 0px;
 }
 .fi a{
     color: white;
@@ -124,7 +124,8 @@ h4{
     padding-right: 10px;
 }
 .fi{
-    padding-right:30px;
+    padding:20px;
+    margin: 0;
 }
 
     /* Main section */
@@ -146,10 +147,9 @@ h4{
       padding-right: 30px;
   }
 .content-tags span{
-    padding: 6px;
-    width: 100px;
+    display: inline-block;
     background-color: #313c4e;
-    border-radius: 10%;
+    border-radius: 5px;
     border: 1px solid rgb(68 147 153);
     margin-bottom: 2px;
     color: rgb(255, 255, 255);
