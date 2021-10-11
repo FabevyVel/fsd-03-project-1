@@ -2,10 +2,14 @@
 box-sizing: border-box;
 }
 body{
- background-image: url(../image/resume.jpg);
+ /*background-image: url(../image/resume.jpg);*/
  background-repeat: no-repeat;
  background-position: center top;
  font-family: Arial, Helvetica, sans-serif;
+}
+.image{
+  margin-left: 1px;
+  margin-right: 10px;
 }
 .container{
   
@@ -13,7 +17,7 @@ body{
   height:100%;
   margin-left:auto;
   margin-right:auto;
-  border: solid yellow 2px;
+  /*border: solid yellow 2px;*/
   
 }
 .header{
@@ -26,14 +30,16 @@ body{
   color: white;
 }
 .name h1{
-font-size: 53px;
+font-size: 46px;
+font-family: 'Lobster', cursive;
 }
 .name h4{
-  font-size: 27px;
+  font-size: 22px;
   margin-top: 5px;
+  color: #428b91;
 }
 .name p{
-  font-size: 21px;
+  font-size: 17px;
   margin-top: 20px;
   line-height: 24px;
   word-spacing: 2px;
@@ -87,67 +93,75 @@ font-size: 53px;
 }
 #personalprojects {
   padding: 0px 40px 10px 0px;
-  margin-top: 99px;
+  margin-top: 27px;
+  
 }
-#certificates {
-  padding: 15px 40px 10px 0px;
-  margin-top: 160px;
+#certificates{
+  padding-top: 20px;
 }
-#languages {
-  padding: 60px 40px 10px 0px;
-  margin-top: 101px;
+#languages{
+  padding-top: 38px;
 }
-#interests {
-  padding: 15px 40px 10px 0px;
-  margin-top: 131px;
+#interests{
+  padding-top: 40px;
 }
 
 h4 {
   padding-top: 23px;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 19px;
 }
 .contenthead3 p {
   padding-top: 10px;
-  font-size: 25px
+  font-size: 15px;
 }
 .contenthead4{
   display: flex;
 }
 .y{
   padding-top: 10px;
-  font-size: 21px;
+  font-size: 15px;
   color: #449399;
 }
 .cgpa{
-  padding-left: 306px;
-  padding-top: 17px;
+  padding-left: 233px;
+  padding-top: 15px;
   color: #449399;
   font-size: 17px;
 }
 .hsc{
   padding-top: 9px;
 }
-
+#workexperience{
+  padding-top: 34px;
+}
 #workexperience ul {
   padding: 10px 20px 10px 20px;
 }
 .workul ul{
-  font-size: 21px;
-  margin-top: -1px;;
+  font-size: 18px;
+  margin-top: -1px;
+  line-height: 30px;
+  width: 500px;
 }
 .hvac{
-  margin-top: -11px;
+  margin-top: -5px;
 }
 #button{
   padding-top: 26px;
 }
 #button button{
-  padding: 5px;
-  font-size: 23px;
+  padding: 12px;
+  font-size: 14px;
+  border: none;
+  background-color: #989da6;
+  border-radius: 40px;
+  margin-bottom: 16px;
+  margin-right: 16px;
 }
 
 .content-box1 {
+
   border: 0px solid white;
   width: 35px;
   background-color: #989da6;
@@ -155,37 +169,110 @@ h4 {
 .contenthead1 h3 {
   color: #449399;
   text-decoration: underline 3px;
-  font-size: 30px;
+  font-size: 23px;
 }
 .contenthead2 h4 {
   font: bold;
 }
 .span {
-  color: #2fc1cc;
+  color: #449399;
   font-size: 19px;
   margin-top: -12px;
 }
 .span1 {
-  color: #2fc1cc;
-  font-size: 4px;
-  margin-top: -12px;
+  color: #449399;
+  font-size: 19px;
+  margin-top: 3px;
 }
 .par p{
-  padding-top: 17px;
-  font-size: 26px;
-
+  padding-top: 25px;
+  font-size: 20px;
+  font-weight: bold;
 }
 .para ul{
-  padding: 30px 10px 10px 24px;
-  font-size: 20px;
+  padding: 10px 10px 10px 24px;
+  font-size: 17px;
 }
 
+.para1 ul{
+  padding: 11px 10px 10px 24px;
+  font-size: 17px;
+}
+.par1 p{
+  padding-top: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.paraheat{
+padding-top: 25px;
+font-size: 20px;
+font-weight: bold;
+}
+.parades{
+padding-bottom: 0px;
+font-size: 17px;
+padding-top: 5px;
 
-
-
-
-
-
+}
+.parahead{
+  padding-top: 29px;
+  font-size: 20px;
+  font-weight: bold;
+  }
+  .paraint{
+    padding-top: 3px;
+    padding-bottom: 50px;
+  }
+.fi1{
+  padding-top: 20px;
+}
+.fi2 p{
+  padding-top: 24px;
+  padding-left: 149px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.fi2 span{
+font-size: 16px;
+display: inline-block;
+padding-top: 5px;
+padding-left: 150px;
+}
+.lan1 span{
+display: inline-block;
+padding-top: 5px;
+font-size: 16px;
+ 
+}
+.lan span{
+padding-top: 10px;
+  font-size: 16px;
+  
+}
+.lan1 p{
+  padding-top: 2px;
+  font-size: 21px;
+  font-weight: bold;
+}
+.lan p{
+  padding-top: 38px;
+  font-size: 23px;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+#paraint{
+  padding-top: 31px;
+  padding-bottom: 85px;
+}
+#paraint button{
+  padding:10px;
+  font-size: 14px;
+  border: none;
+  background-color: #989da6;
+  border-radius: 40px;
+  margin-bottom: 16px;
+  margin-right: 16px;
+}
 
 
 
@@ -201,7 +288,7 @@ h4 {
   display: flex;
 }
 .fi{
-  border:solid black 2px;
+  
   padding-left: 37px;
   
 }

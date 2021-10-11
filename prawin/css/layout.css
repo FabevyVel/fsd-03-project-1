@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../doc/resume-pic.jpg);
+    background-image: url(../images/resume-pic.jpg);
     background-position: center top;
     height: 1000px;
     font-family: Arial, Helvetica, sans-serif;
