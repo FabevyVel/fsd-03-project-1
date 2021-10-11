@@ -4,7 +4,8 @@
 body{
     background-image: url(../doc/resume-pic.jpg);
     background-position: center top;
-    height: 1750px;
+    height: 1000px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .container{
     width: 1147px;
@@ -110,7 +111,7 @@ body{
 
 .main-section{
     background-color: #fff;
-    height: 1431px;
+    height: 900px;
 }
 #right{
     padding-left: 30px;
