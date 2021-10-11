@@ -45,6 +45,10 @@ body{
     font-family: 'Cormorant', serif;
     line-height: 29px;
 }
+.flex img{
+    height: 205px;
+    padding-left: 9px;
+}
 .contacts .flex-1 a{
     color: #fff;
     font-size: 20px;
