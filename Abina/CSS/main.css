@@ -67,10 +67,9 @@ body {
     font-weight: lighter;
     font-size: 16px;
 }
-.highlight-text-2{
-    color: gray;
-    font-size: 11px;
-    padding-bottom: 15px;
+#main-section{
+    background-color: #fff;
+    height: 1302px;
 }
 #main-content{
     display: flex;
@@ -83,16 +82,22 @@ body {
 }
 .content-box-tags{
     border-radius: 12px;
-    background-color:rgb(143, 143, 197);
+    background-color:rgb(122, 122, 148);
     float: left;
     padding: 10px;
-    margin-left: 12px;
+    color: white;
+    
 }   
 .content-box h2{
     padding-top: 10px;
     padding-right:3%;
     padding-bottom:10px;
     padding-left: 3px; 
+}
+.highlight-text-1 {
+    color: rgb(35, 155, 143);
+    font-size: 15px;
+    font-style: italic;
 }
 
 
