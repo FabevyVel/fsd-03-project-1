@@ -187,8 +187,8 @@ body{
 }
 img{
    border-radius: 78%;
-    width: 100%;
-    box-sizing: border-box;
-    /* margin: 22px 20px 26px 13px; */
-    padding: 8px 5px;
+   width: 100%;
+   box-sizing: border-box;
+   margin: 19px 16px 21px -25px;
+   /* padding: 8px 6px;
 }
