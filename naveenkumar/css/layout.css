@@ -212,8 +212,14 @@ body{
     font-size: 14px;
     display: inline;
 }
-.content-box-tags-2 .content-box-tags{
-    display: inline;
+.content-box-tags-1 button{
+    display: inline-block ;
+    margin-left: 10px;
+    margin-right: -5px;
+    margin-bottom: 10px;
+    background-color: #898a8d;
+    border-radius: 5px;
+    color: white;
 }
 .content-box-r-5 h2{
     color: #438f80;
@@ -224,4 +230,13 @@ body{
 .highlight-text-5{
     color: #438f80;
     font-size: 11px;   
+}
+.content-box-tags-2 button{
+    display: inline-block ;
+    margin-left: 10px;
+    margin-right: -5px;
+    margin-bottom: 10px;
+    background-color: #898a8d;
+    border-radius: 5px;
+    color: white;
 }
