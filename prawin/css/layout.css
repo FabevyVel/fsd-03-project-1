@@ -2,10 +2,10 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../doc/resume-pic.jpg);
+    background-image: url(../images/resume-pic.jpg);
     background-position: center top;
     height: 1000px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .container{
     width: 1147px;
@@ -66,22 +66,21 @@ body{
     padding-bottom: 40px;
 }
 .header-right img{
-    width: 100%;
+    width: 120%;
     border-radius: 50%;
-    
-    border: solid 8px #c0bebf;
+    border: solid 0px #c0bebf;
 }
 .header h1{
     color: white;
     font-size: 60px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration:none;
     font-weight: lighter;
 }
 .header h3{
     color: #419195;
     font-size: 32px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration:none;
     font-weight: lighter;
     padding-bottom: 20px;
@@ -89,7 +88,7 @@ body{
 .header p{
     color: white;
     font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration:none;
     font-weight: lighter
 }
@@ -120,19 +119,19 @@ body{
     color: #4496b1;
     font-size: 30px;
     text-decoration: underline;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     padding-top: 36px;
     padding-bottom: 15px;
 }
 .content-box-detail h3{
     font-size: 28px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     padding-bottom: 10px;
 }
 .content-box-detail h4{
     font-size: 25px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     padding-bottom: 10px;
 }
@@ -144,7 +143,7 @@ body{
 .highlights {
     color: #4496b1;
     font-size: 20px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .highlight-text-2 {
     color: grey;
@@ -157,7 +156,7 @@ body{
     justify-content: space-between;
 }
 .content-box-tag {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -165,26 +164,28 @@ body{
     padding-left: 4px;
     margin-right: 4px;
     color: white;
-    border: solid 2px rgb(195 198 203);
-    background-color: rgb(152 157 166);
+    border: solid 2px rgb(38 41 46);
+    background-color: rgb(32 39 50);
     border-radius: 8px;
     display: inline-block;
 }
 .content-box-tag-1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 4px;
     padding-left: 4px;
-    border: solid 2px rgb(195 198 203);
+    color: white;
+    border: solid 2px rgb(38 41 46);
+    background-color: rgb(32 39 50);
     border-radius: 8px;
     margin-right: 4px;
     margin-top: 10px;
     display: inline-block;
 }
 .content-box-detailss h3{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 25px;
 }
@@ -193,7 +194,7 @@ body{
     padding-top: 10px;
 }
 .list li{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
 }
 .list ul li::before{
@@ -206,7 +207,7 @@ body{
     list-style: none;
 }
 .content-box-detailss li{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 .content-box-detailss ul li::before{
@@ -216,16 +217,15 @@ body{
     width: 1em;
 }
 .content-box-detail-l1 h4{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 25px;
 }
 .content-box-detail-l2 h4{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: lighter;
     font-size: 25px;
 }
 .content-box-detail-l2 {
     padding-bottom: 20px;
 }
-
