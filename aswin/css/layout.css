@@ -1,0 +1,238 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url(../images/resume.jpg); */
+    /* height: 1750px; */
+    background-position: center top;
+}
+.container{
+    
+    width: 1147px;
+    margin: auto;
+}
+.fc {
+    display: flex;
+}
+.col-1{
+    width: 8.33%;
+    
+}
+.col-2{
+    width: 16.6%;
+}
+.col-3{
+    width:25%;
+}
+.col-4{
+    width: 33.33333333%;
+}
+.col-5{
+    width:41.66666667%;
+}
+.col-6{
+    width:50%;
+}
+.col-7{
+    width:58.33333333% ;
+}
+.col-8{
+    width:66.66666667%;
+}
+.col-9{
+    width:75%;
+}
+.col-10{
+    width:83.33333333%;
+}
+.col-11{
+    width:91.66666667%
+}
+.col-12{
+    width: 100% ;
+}
+
+.header{
+    /* height: 256px; */
+     background-color: #313c4e;
+   
+}
+.header h2 {
+  color: #fff;
+    padding: 24px 24px;
+    font-size: 42px;
+  }
+  .header h5 {
+    color: #315980;
+    font-size: 28px;
+    font-family: -webkit-pictograph;
+    padding: 2px 6px 18px 20px;
+  }
+  .header p {
+    color: #fff;
+    font-size: 25px;
+    padding: 1px 7px 0px 18px;
+  }
+   img{
+   
+    border-radius: 78%;
+    width: 100%;
+    box-sizing: border-box;
+    /* margin: 22px 20px 26px 13px; */
+    padding: 8px 5px;
+      
+  }
+ 
+.contacts{
+    /* height: 62px; */
+    background-color: #222b34;
+    color: white;
+    justify-content: center;
+}
+
+.contact a{
+  padding: 23px 39px;
+  display: inline-block;
+  color: aliceblue;
+}
+
+.jc-center{
+    justify-content: center;
+}
+
+.main-content{
+    /* height: 1444px; */
+    background-color: #ffffff;
+}
+.content-box{
+  padding: 5px 22px;
+  }
+  .content-box h2{
+   
+    color: #449399;
+    font-size: 28px;
+    font-family: sans-serif;
+    padding: 14px 0px;
+  }
+  .content-box-details{
+    padding:14px 0px 8px 0px;
+  
+  }
+  .content-box-details h3{
+    color: #000000;
+    font-size: 29px;
+    font-family: system-ui;
+  
+  }
+ 
+  .content-box-details h4{
+    font-size: 27px;
+    padding: 12px 0px;
+    font-family: sans-serif;
+  
+} 
+  .content-box-details h5 {
+      color:#131313;
+    font-size: 28px;
+    font-family: -webkit-pictograph;
+   
+  }
+span .year{
+    display: inline-flex;
+   
+
+}
+.year-details{
+    display: flex;
+    color: #22848a;
+    font-size: 23px;
+    font-style: italic;
+}
+.fi{
+    display: flex;
+}
+.content-box-details h6 {
+  color: #616869;
+  font-size: 26px;
+  padding: 11px 0px;
+  font-family: sans-serif;
+  }
+  .content-box-details p {
+    font-weight: 600;
+    color: #010c17;
+    font-size: 21px;
+    font-family: system-ui;
+  }
+  .content-box-details .para p{
+    font-weight: 600;
+    color: #9ea2a7;
+    font-size: 21px;
+    font-family: system-ui;
+  }
+  .sub-content-box li{
+        font-size: 25px;
+    font-weight: 500;
+    font-family: system-ui;
+    list-style: inside;
+    box-sizing: border-box;
+    color:#22848a
+    
+  }
+  
+  .sub-content-box h6 {
+    color: #519aa0;
+  }
+ 
+   
+
+  .language{
+    display: flex;
+    font-size: 22px;
+    padding: 25px 3px;
+    font-family: ui-monospace;
+  }
+  .languages-detail-1 p{
+      font-style: italic;
+      color:#989da6 ;
+     
+
+  }
+  .languages-detail-1 h5{
+    padding:0px 1px 12px 0px;
+  }
+  .interest{
+    display: flex;
+  }
+  .content-box-tag{
+    border: 3px solid #a1abbe;
+    padding: 12px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    /* width: 74px; */
+    display: inline-block;
+    font-size: 22px;
+}
+.softskill{
+  display: flex;
+  padding: 0 15px;
+}
+
+.s-skil{
+  
+}
+.s-skil span
+{
+  background-color: #999da6;
+    padding: 22px 28px;
+    display: inline-block;
+    border-radius: 12%;
+    margin: 16px;
+    margin-bottom: 2px;
+    color: white;
+}
+
+
+  
+ 
+  

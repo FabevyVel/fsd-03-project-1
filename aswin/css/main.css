@@ -1,0 +1,165 @@
+body{
+  background-image: url(../images/resume.jpg);
+}
+
+.container{
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.main-content{
+  display: flex;
+}
+
+
+  .header-wrapper{
+    background-color: #313c4e;
+  }
+  .header {
+    display: flex;
+    background-color: #313c4e;
+    padding-top: 25px;
+    
+    padding-bottom: 25px;
+   
+
+  }
+  .header h2 {
+    color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .header h5 {
+    color: #315980;
+    font-size: 21px;
+  }
+  .header p {
+    color: #fff;
+  }
+   img{
+    border: 2px solid blue;
+    border-radius: 242px;
+      
+  }
+  .contacts {
+    background-color: #222a33;
+    text-align: center;
+   
+    
+  }
+  #main-content{
+      display: flex;
+      
+  }
+ 
+  .contacts a {
+    color: #fff;
+    padding:0  20px;
+    display: inline-block;
+    
+  }
+    #left{
+    width: 50%;
+  }
+   #right{
+    width: 50%;
+  }
+ .flex-right-container{
+   display: flex;
+   flex-wrap:  wrap-reverse ;
+ }
+
+  .content-box{
+    padding: 20px;
+  }
+  .content-box h2{
+     color: #449399;
+    font-family: sans-serif;
+  }
+  .content-box-details{
+  
+  }
+  .content-box-details h3{
+    color: #000000;
+    font-size: 25px;
+  
+  }
+  .content-box-details span{
+     color: #449399;
+     
+  }
+
+  .header-left{
+    width: 80%;
+
+  }
+  .header-right{
+    width: 20%;
+    
+  }
+  .content-box-detail-left p {
+    color: #b9bfc7;
+  }
+  .content-box-detail-right p {
+    color: #b9bfc7;
+  }
+  
+  .languages-left p {
+    color: #b6bac2;
+  }
+  .languages-right p {
+    color: #b6bac2;
+  }
+  .content-interest h2 {
+    color: hsl(185, 57%, 30%);
+  }
+  #content-box-tags {
+    display: flex;
+    flex-wrap: nowrap;
+    border: 3px solid #a1abbe;
+      color: white;
+      border-radius: 10px;
+      padding: 0 13px 0  13px;
+      margin: 0 10px;
+      text-align: -webkit-center;
+      
+      width: 5%;
+      background-color: #989da6;
+  }
+  
+  .span .hello {
+    color: #519aa0;
+  }
+  .content-box-details h6 {
+    color: #000;
+    font-size: 18px;
+    font-family: sans-serif;
+  }
+  .content-box-details p {
+    color: #a9afb5;
+  }
+  
+  .sub-content-box h6 {
+    color: #519aa0;
+  }
+  .sub-content-box li {
+    color: black;
+  }
+  .span left {
+    color: #519aa0;
+  }
+  .interest{
+    display: flex;
+  }
+  .content-box-tags-1{
+    display: flex;
+  }
+  .languages-right{
+    display: inline-flex;
+  }
+  .interest{
+    display: flex;
+  }
+  .content-box-tag{
+    
+  }

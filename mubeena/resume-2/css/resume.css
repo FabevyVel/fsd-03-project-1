@@ -1,0 +1,50 @@
+body{
+    background-image: url(../images/resume-2-pic.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 1280px;
+}
+.container{
+    width: 962px;
+    margin: auto;
+}
+.fc{
+    display: flex;
+    border: 2px solid black;
+}
+.fi{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/* section header starts*/
+.header{
+    background-color: #373d4857;
+    height: 206px;
+}
+.heading{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.heading h1{
+    color: #fff;
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+.heading h4{
+    color: #fff;
+    font-size: 24px;
+}
+.contacts{
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 7px;
+    font-size: 15px;
+}
+.contacts h6{
+    padding-bottom: 15px;
+}
+/* section header ends*/
+.main-section{
+    background-color: #ffffff4a;
+    height: 1050px;
+}
