@@ -1,0 +1,126 @@
+.container{
+        
+    width: 1142px;
+    margin: 0 auto;
+}
+
+.flex-display{
+    display: flex;
+}
+.size1{
+    width:27.33%;
+    border:5px;
+}
+.left{
+
+    background-color:rgb(21, 13, 128)   ; 
+}
+.left h2{
+    color:rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+.left h3{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+.content-box h4{
+    display:inline inline-block;
+    background-color:rgb(17, 24, 95);
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color:white;
+    font-size: 18px;
+}
+.progress{
+    background-color:rgb(17, 24, 95);
+    height: 12px;
+    width: 266px;
+    margin-left: 15px;
+    
+}
+.progress-done{
+     background-color: white;
+     width:66%;
+     height:12px;
+    display:flex;
+    font-size: 10px;
+}
+.progress-done2{
+    background-color: white;
+    width:70%;
+    height:12px;
+   display:flex;
+   font-size: 10px;
+}
+.progress-done3{
+    background-color: white;
+    width:60%;
+    height:12px;
+   display:flex;
+   font-size: 10px;
+}
+.performance{
+    display:flex;
+    justify-content:right;
+    padding-right: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(242, 243, 241)
+}
+.content-box-detail h5 {
+    color: white;
+    
+    padding-top: 10px;
+    padding-left: 15px;
+    font-family:'Times New Roman', Times, serif;
+}
+.content-box-detail h6 {
+    color: white;
+    font-size: 12px;
+    padding-left: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/*............right..........*/
+.size2{
+    width:67.777%;
+}
+.right{
+    background-color:rgb(242, 243, 241);
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height:  20px;
+}
+.career-objective{
+    padding-top: 10px;;
+}
+.line{
+    background-color: black;
+    padding-right: 10px;
+}
+.content-box-2 h3{
+   
+    font-size: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color:blue;
+}
+.content-box-detail-2{
+    display: flex;
+    padding-bottom: 10px;
+}
+.year-percent{
+    width: 20%
+}
+.course-name{
+    width: 80%
+} 
