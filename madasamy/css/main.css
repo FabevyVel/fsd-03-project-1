@@ -4,9 +4,8 @@ body {
   height: 1025px;
   justify-content: center;
   border: solid;
-  border-color:  #313c4e;
-  margin-left: 300px;
-  margin-right: 300px;
+  border-color: #313c4e;
+  margin: auto;
   font-family: Arial;
   background-image: url("image/resume.jpg");
 }
@@ -23,7 +22,6 @@ body {
 .name h1 {
   color: #fff;
   font-size: 35px;
-  
 }
 .name h4 {
   color: #419195;
@@ -31,8 +29,8 @@ body {
 }
 .name p {
   color: white;
-  word-break: break-all; 
-  width:600px;
+  word-break: break-all;
+  width: 600px;
   text-align: justify;
 }
 #contacts {
@@ -42,21 +40,24 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-#contacts i{
-margin-right: 10px;
+#contacts i {
+  margin-right: 10px;
 }
-#contacts a{
+#contacts a {
   margin-right: 20px;
-  }
-#image img{
-margin-top: 70px;
-margin-right: 50px;
-height: 100px; 
-width:100px;
-
+}
+#image img {
+  margin-top: 70px;
+  margin-right: 50px;
+  height: 100px;
+  width: 100px;
 }
 #contacts a {
   color: white;
+}
+.spanspace span {
+  padding-left: 50px;
+  display: inline-block;
 }
 #education {
   padding: 30px 40px 10px 30px;
@@ -121,24 +122,28 @@ span {
   color: #2fc1cc;
   font-size: 15px;
 }
-#head-content{
-display: flex;
+#head-content {
+  display: flex;
 }
-#leftright{
-display: flex;
-width: 765px;
-flex-wrap: nowrap;
-height: 787px;
-}
-#leftside{
-  height: 800px;
-  width:350px;
+#leftright {
+  display: flex;
+  width: 765px;
+  flex-wrap: nowrap;
   height: 787px;
-  }
-  #right{
-    height: 787px;
-    margin-left: 0px;
-    padding-left: 0;
-    }
-  
-
+}
+#leftside {
+  height: 800px;
+  width: 350px;
+  height: 787px;
+}
+#right {
+  height: 787px;
+  margin-left: 0px;
+  padding-left: 0;
+}
+.fc{
+  display: flex;
+}
+.fi2{
+  padding-left: 30px;
+}
