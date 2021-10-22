@@ -1,8 +1,8 @@
 *{
     box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 body{
-    /* background-image: url(../images/resume.jpeg); */
     background-position: center top;
     height: 875px;
 }
@@ -58,12 +58,11 @@ body{
     padding-left: 39px;
     padding-right: 30px;
     padding-top: 26px;
-    font-family: ;
 }
 .header h1{
     font-size: 29px;
     color: #fff;    
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-decoration: none;
 
 }
@@ -80,6 +79,9 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
+.fi p{
+    padding-right: 4px;
+}
 .images img{
     width: 100%;
     border-radius: 50%;
@@ -94,6 +96,7 @@ body{
     padding-bottom: 0px;
     padding-right: 8px;
     padding-left: 8px;
+    color: #42acdf;
 }
 .main-section{
     background-color: #fff;
@@ -108,40 +111,41 @@ body{
     padding-bottom: 11px;
     padding-left: 2px;
     padding-top: 1px;
+    font-size: 18px;
 }
 .content-box-detail-1{
     padding-bottom: 2px;
 }
 .highlight-text-1{
     color: #438f80;
-    font-size: 11px;
+    font-size: 14px;
     padding-left: 20px;
 }
 .highlight-text-2{
     color: #438f80;
-    padding-left: 206Px;
-    font-size: 11px;
+    padding-left: 170Px;
+    font-size: 14px;
 }
 .highlight-text-3{
     color: #438f80;
-    padding-left: 176Px;
-    font-size: 11px;
+    padding-left: 130Px;
+    font-size: 14px;
 }
 .highlight-text-4{
     color: #438f80;
-    padding-left: 150Px;
-    font-size: 11px;
+    padding-left: 100Px;
+    font-size: 14px;
 }
 .content-box-detail-2{
     padding-top: 17px;
     padding-left: 3px;
     padding-bottom: 19px;
-
 }
 .content-box-2 h2{
     color: #438f80;
     text-decoration: underline 3px;
     padding-top: 19px;
+    font-size: 18px;
 }
 .content-box-detail{
     padding-top: 10px;
@@ -175,7 +179,7 @@ body{
 .content-box-r-2 h2{
     color: #438f80;
     text-decoration: underline 3px;
-    font-size: 14px;
+    font-size: 18px;
 }
 .content-box-r-2 h4{
     font-size: 14px;
@@ -192,7 +196,7 @@ body{
 .content-box-r-3 h2{
     color: #438f80;
     text-decoration: underline 3px;
-    font-size: 14px;
+    font-size: 18px;
     padding-bottom: 10px;
 }
 .content-box-r-3 h4{
@@ -206,7 +210,7 @@ body{
 .content-box-r-4 h2{
     color: #438f80;
     text-decoration: underline 3px;
-    font-size: 14px;
+    font-size: 18px;
 }
 .content-box-r-5{
     padding-bottom: 16px;
@@ -218,14 +222,14 @@ body{
     margin-left: 10px;
     margin-right: -5px;
     margin-bottom: 10px;
-    background-color: #898a8d;
+    background-color: #9a9da3;
     border-radius: 5px;
     color: white;
 }
 .content-box-r-5 h2{
     color: #438f80;
     text-decoration: underline 3px;
-    font-size: 14px;
+    font-size: 18px;
     padding-bottom: 10px;
 }
 .highlight-text-5{
@@ -240,4 +244,22 @@ body{
     background-color: #898a8d;
     border-radius: 5px;
     color: white;
+}
+#workexperience{
+    font-size: 13px;
+}
+.contenthead1{
+    color: #438f80;
+    text-decoration: underline 3px;
+    padding-top: 19px;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.contenthead2{
+    padding-top: 10px;
+    font-size: 13px;
+    padding-bottom: 2px;
+}
+.work li{
+    padding-bottom: 10px;
 }
