@@ -59,19 +59,20 @@ body{
 }
 .header h2 {
   color: #fff;
-    padding: 24px 24px;
-    font-size: 42px;
+  padding: 24px 24px;
+  font-size: 33px;
+  font-family: -webkit-pictograph;
   }
   .header h5 {
     color: #315980;
-    font-size: 28px;
+    font-size: 26px;
     font-family: -webkit-pictograph;
     padding: 2px 6px 18px 20px;
   }
   .header p {
     color: #fff;
-    font-size: 25px;
-    padding: 1px 7px 0px 18px;
+    font-size: 22px;
+    padding: 1px 7px 0px 22px;
   }
    img{
    
@@ -110,7 +111,7 @@ body{
   .content-box h2{
    
     color: #449399;
-    font-size: 28px;
+    font-size: 25px;
     font-family: sans-serif;
     padding: 14px 0px;
   }
@@ -120,20 +121,20 @@ body{
   }
   .content-box-details h3{
     color: #000000;
-    font-size: 29px;
+    font-size: 25px;
     font-family: system-ui;
   
   }
  
   .content-box-details h4{
-    font-size: 27px;
-    padding: 12px 0px;
+    font-size: 25px;
+    padding: 8px 0px;
     font-family: sans-serif;
   
 } 
   .content-box-details h5 {
-      color:#131313;
-    font-size: 28px;
+    color: #474444;
+    font-size: 26px;
     font-family: -webkit-pictograph;
    
   }
@@ -144,7 +145,7 @@ span .year{
 }
 .year-details{
     display: flex;
-    color: #22848a;
+    color: #0dafea;
     font-size: 23px;
     font-style: italic;
 }
@@ -153,9 +154,9 @@ span .year{
 }
 .content-box-details h6 {
   color: #616869;
-  font-size: 26px;
-  padding: 11px 0px;
-  font-family: sans-serif;
+    font-size: 22px;
+    padding: 11px 0px;
+    font-family: sans-serif;
   }
   .content-box-details p {
     font-weight: 600;
@@ -175,12 +176,13 @@ span .year{
     font-family: system-ui;
     list-style: inside;
     box-sizing: border-box;
-    color:#22848a
+    
     
   }
   
   .sub-content-box h6 {
     color: #519aa0;
+    font-size: 20px;
   }
  
    
@@ -224,12 +226,12 @@ span .year{
 .s-skil span
 {
   background-color: #999da6;
-    padding: 22px 28px;
-    display: inline-block;
-    border-radius: 12%;
-    margin: 16px;
-    margin-bottom: 2px;
-    color: white;
+  padding: 22px 28px;
+  display: inline-block;
+  border-radius: 12%;
+  margin: 12px;
+  margin-bottom: 2px;
+  color: white;
 }
 
 
