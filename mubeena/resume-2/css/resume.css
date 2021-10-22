@@ -62,10 +62,11 @@ body{
     color: #fff;
     font-size: 23px;
     font-weight: lighter;
+    padding-left: 3px
 }
 .contacts{
     color: #fff;
-    margin-left: 35px;
+    margin-left: 39px;
     font-size: 15px;
 }
 .contacts h6{
