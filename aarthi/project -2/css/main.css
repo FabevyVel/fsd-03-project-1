@@ -1,0 +1,153 @@
+*/{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../design/img.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    height: 1360px;
+    font-family: 'Cabin', sans-serif;
+}
+.container{ 
+    width: 962px;
+    margin:auto;
+}
+.f-c{
+    display:flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+}
+.f-i{
+    padding-right:10px;
+}
+.col-1{
+    width:8.33%;
+}
+.col-2{
+    width:16.67%;
+}
+.col-3{
+    width:25%;
+}
+.col-4{
+    width:33.33%;
+}
+.col-5{
+    width:41.66%;
+}
+.col-6{
+    width:50%;
+}
+.col-7{
+    width:58.33%;
+}
+.col-8{
+    width:66.67%
+}
+.col-9{
+    width:75%
+}
+.col-10{
+    width:83.33%
+}
+.col-11
+{
+    width:91.67%
+}
+.col-12{
+    width:100%;
+}
+/* ....header.... */
+.header{
+    background-color: #364148;
+    height: 206px;
+}
+.header-content{
+    padding-left: 40px;
+}
+.header  h1{
+   color: white;
+   padding-top: 28px;
+    font-size: 54px;
+   font-weight: lighter;
+}
+.header h3{
+     color: white;
+     padding-top: 10px;
+    padding-bottom: 22px;
+    font-size: 26px;
+    font-weight: lighter;
+}
+.header a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+/* .....about..... */
+.about{
+    background-color:#ffffff;
+    height: 94px;  
+}
+
+.about-content{
+    padding-left: 40px;
+    padding-right: 20px;
+    padding-top: 22px;
+}
+
+.about p{
+    color: #080707;
+    line-height: 22px;
+    font-size: 18px;
+}
+/* ....content...... */
+.main-content{
+    background-color:#ffffff;
+    height: 1060px;
+}
+.content {
+    padding-left: 50px;
+}
+
+.sub-content{
+    padding-left: 46px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.sub-content h2{
+    color:#252932;
+    padding-bottom: 18px;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 16px;
+}
+
+.content-box-details{
+    display:flex;
+    padding-bottom: 16px;
+}
+.details-left{
+    line-height: 22px;
+}
+.details-right{
+    line-height: 26px;
+}
+.details-right h3{
+    font-size: 18px;
+    font-weight: bold;
+}
+.details-right ul{
+     font-size: 18px; 
+     list-style-position: inside;
+}
+.content-box-detail {
+    line-height: 24px;
+    font-size: 18px;
+}
+.sub-content h2 i{
+    background-color: #8b8e95;
+    height: 25px;
+    width: 25px;
+    padding: 4px;
+}
