@@ -5,6 +5,7 @@
     padding-right: 0px;
     padding-bottom: 30px;
     padding-left: 30px;
+   
 }
 #header h1{
     color: white;
@@ -66,7 +67,7 @@
     font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
 }
-.highlight-text-1 {
+.highlight-text{
     font-size: 15px;
     color: #438f80;
     font-family: Arial, Helvetica, sans-serif;
@@ -112,5 +113,5 @@
 .header-right img{
     clip-path: circle();
     width: 130px;
-    border:2px blue;
+    border-radius:2px blue;
 }

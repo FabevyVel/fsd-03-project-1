@@ -1,12 +1,12 @@
 *{
 
-    font-family:sans-serif,arial;
+    /* font-family:sans-serif,arial; */
 }
 
 body{
    background-image: url(../design/resume.jpg);
    background-position: center top;
-   height: 1750px;
+   font-family:'Average Sans', sans-serif;
 }
 .container{
     width:1146px;
@@ -18,8 +18,7 @@ body{
 .jc{
     justify-content:center;
 }
-.f-item{
-    /* border:solid 2px; */
+.f-item{ 
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -61,12 +60,12 @@ body{
     width:100%;
 }
 .about{
-    background-color:#313c4ebf ;
-    height:259px;
+    background-color:#313c4e;
+    padding-top: 35px;;
 }
 .about-left h1{ 
     color: white;
-    padding-top:43px;
+    padding-top:5px;
     font-size:50px;
     text-decoration:none;
     font-weight: lighter;
@@ -83,13 +82,14 @@ body{
     font-size:22px;
     padding-bottom:40px;
 }
-.about-right{
-
+.about-right img{
+    width: 100%;
+    border-radius: 50%;
 }
 .contact{
-    background-color:#222b344a ;
-    height:45px;
-    padding-top:15px;
+    background-color:#222b34 ;
+    padding-top:20px;
+    padding-bottom: 20px;
 }
 .contact a{
     color:white;
@@ -99,8 +99,8 @@ body{
     padding-left: 15px;
 }
 .main-content{
-     background-color: #ffffff4d;
-     height:1431px;
+     background-color: #ffffff;
+     padding-bottom: 150px;
 }
 .content-box-detail{
     padding-bottom:18px;
@@ -110,21 +110,24 @@ body{
     color: #4c9399;
     padding-top: 34px;
     padding-bottom: 15px;
-    font-size: 28px;
+    font-size: 35px;
     font-weight: bold;
     text-decoration:underline;
     text-decoration-color: rgb(68 147 153);
     text-decoration-thickness: 5px; 
+    /* font-family:'Lobster', cursive; */
+    /* font-family: 'Cinzel', serif; */
+    /* font-family: 'Grechen Fuemen', cursive; */
+    font-family: 'Courgette', cursive;
 }
 .content-box-detail h4{
     color:black;
-    font-size: 26px;
+    font-size: 30px;
     padding-bottom: 10px;
     padding-top: 8px;
 }
 .content-box-detail h6{
-    font-size: 24px;
-    font-weight: normal;
+    font-size: 22px;
     padding-bottom: 12px;
 }
 .highlight-text-flexwrapper {

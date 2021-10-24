@@ -2,7 +2,6 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(../images/resume.jpg);
     background-position: center top;
     height: 1750px;
 }
@@ -57,15 +56,15 @@ body{
     border-radius: 50%;
 }
 .header{
-    background-color:rgb(49 60 78 / 73%);
+    background-color:rgb(49, 60, 78);
     height: 259px;
 }
 .contacts{
-    background-color: rgb(34 42 51 / 63%);
+    background-color: rgb(34, 42, 51);
     height: 60px;
 }
 .main-content{
-    background-color: rgb(255 255 255 / 75%);
+    background-color: rgb(255, 255, 255);
     height: 1431px;
 }       
 .header{
