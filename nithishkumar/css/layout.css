@@ -14,7 +14,7 @@ body{
     justify-content: center;
 }
 .fi{
-    /* border: solid 3px; */
+    /* border: solid 3px;  */
 }
 .col-1{
     width: 8.3333%;
@@ -54,15 +54,13 @@ body{
 }
 .header{
     background-color: #313c4e;
-    height: 199px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 40px;
-    padding-bottom: 0px;
+    height: 259px;
 }
 .header-left h1{
+    color: #ffff;
     font-size: 48px;
     margin-bottom: 10px;
+    padding-top: 40px;
 }
 .header-left h3{
     font-size: 30px;
@@ -70,23 +68,28 @@ body{
     padding-bottom: 14px;
 }
 .header-left p{
+    color: #ffff;
     font-size: 25px;
 }
+.header-right img{
+    width: 170px;
+    border-radius: 50%;
+}
 .contacts{
-    background-color: #222b34; 
-    height: 45px;
+    background-color: #222a33; 
+    height: 60px;
 }
 .contacts .fi a{
     color: #ffff;
     font-size: 20px;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-left: 25px;
     padding-right: 25px;
     display: inline-block;
 }
 .main-section{
     background-color: #ffff; 
-    height: 1420px;
+    height: 1440px;
 }
 .content-box-1 h2{
     color: #439096;
@@ -102,6 +105,7 @@ body{
 }
 .content-box-1 h4{
     font-size: 29px;
+    font-weight: lighter;
 }
 .content-box-1 .left-side{
     color: #439096;
@@ -130,6 +134,7 @@ body{
 }
 .content-box-2 h4{
     font-size: 29px;
+    font-weight: lighter;
 }
 .content-box-2 .left-side{
     color: #439096;
@@ -154,14 +159,20 @@ body{
 .content-box-3 h2{
     color: #439096;
     font-size: 29px;
-    padding-top: 29px;
-    padding-bottom: 23px;
+    padding-top: 25px;
+    padding-bottom: 20px;
     text-decoration: underline;
 }
 .content-box-3 .content-box-tags-1 .content-box-tag{
+    font-size: 22px;
+    width: 100px;
+    border: 1px solid #439096;
+    background-color: #222a33; 
+    color: #ffff;
+    border-radius: 10px;
+    text-align: center;
+    padding-right: 5px;
     display: inline-block;
-    background-color: gainsboro;
-    border-radius: 250px;
 }
 .content-box-4 h2{
     font-size: 29px;
@@ -231,6 +242,7 @@ body{
     font-size: 18px;
     padding-top: 5px;
     padding-bottom: 20px;
+    font-weight: lighter;
 }
 .content-box-7 h2{
     font-size: 29px;
@@ -240,9 +252,15 @@ body{
     text-decoration: underline;
 }
 .content-box-7 .content-box-tags-2 .content-box-tag{
-    display: inline-block;
-    background-color: gainsboro;
-    border-radius: 250px;
+    font-size: 22px;
+    width: 100px;
+    border: 1px solid #439096;
+    background-color: #222a33; 
+    color: #ffff;
+    border-radius: 10px;
+    text-align: center;
+    padding-right: 5px;
+    display: inline-block;  
 }
 
 
