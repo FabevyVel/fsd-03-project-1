@@ -116,7 +116,7 @@ body{
 }
 
 .sub-content h2{
-    color: black;
+    color:#252932;
     padding-bottom: 18px;
     font-size: 24px;
     font-weight: bold;
@@ -125,7 +125,7 @@ body{
 
 .content-box-details{
     display:flex;
-    padding-bottom: 20px;
+    padding-bottom: 16px;
 }
 .details-left{
     line-height: 22px;
@@ -149,5 +149,5 @@ body{
     background-color: #8b8e95;
     height: 25px;
     width: 25px;
-    padding: 6px;
+    padding: 4px;
 }
