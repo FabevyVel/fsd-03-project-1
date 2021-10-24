@@ -52,6 +52,9 @@ a{
 p{
     font-size: 20px;
 }
+.fa{
+    padding-right: 4px;
+}
 /* ------left-starts */
 .left{
     color: hsl(180deg 22% 95%);
