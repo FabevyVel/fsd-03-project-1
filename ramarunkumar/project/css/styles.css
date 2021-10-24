@@ -1,0 +1,151 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    line-height: 2;
+    font-family: 'Calibri';
+}
+#container{
+    margin: 0 13%;
+    padding: 0%; 
+}
+.container{
+    padding: 30px;
+}
+.main-content{
+    display: flex;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: hsl(200deg 96% 57%);
+}
+h2{
+    
+    font-size: 25px;
+    color: hsl(210deg 8% 85%);
+}
+h3{
+
+}
+h4{
+    font-size: 20px;
+}
+h5{
+    font-weight: lighter;
+    font-size: 20px ;
+}
+h6{
+
+}
+a{
+    font-size: 20px;
+}
+.left hr{
+    
+    border: 2px solid rgb(255, 255, 255);
+}
+.right hr{
+    border: 2px solid rgb(0, 0, 0);
+}
+p{
+    font-size: 20px;
+}
+.fa{
+    padding-right: 4px;
+}
+/* ------left-starts */
+.left{
+    color: hsl(180deg 22% 95%);
+    background-color: hsl(211deg 28% 25%);
+    width: 25%;
+}
+.content p{
+    text-align: left;
+    font-size: 20px;
+}
+.items-1{
+    padding:  0;
+    text-align: left;
+}
+.items-1 p{
+    text-align: center;
+}
+.items ul li{
+    list-style-type: none ;
+}
+
+.items a{
+    color:hsl(210deg 8% 85%);
+    text-decoration: none;
+}
+.items-2{
+    padding: 15px 0;
+}
+.content{
+    padding: 10px;
+}
+.items-3 h5{
+        text-align: center;
+}
+.items-4{
+    
+}
+/* --------right-start------ */
+.right{
+    padding-left: 20px;
+    width: 75%;
+}
+.title{
+    display: flex;
+    font-size: 20px;
+}
+.tags{
+    font-size: 25px;
+}
+.text-left{
+    font-size: 25px;
+}
+p {
+    font-size: 20px;
+    text-align: center;
+}
+ul{
+    
+    padding-left: 20px;
+    font-size: 22px;
+    font-weight: 400px;
+}
+.list {  
+    font-size: 20px;
+    font-weight: 400;
+}
+.tags{
+    display: flex;  
+}
+.text-left{
+    color: hsl(200deg 96% 57%);
+    width: 100%;
+}
+.text-right{
+    width: 50%;
+}
+ .text{
+    color: black;
+}
+.right-sec{
+    padding-top: 15px;
+}
+.right-sec h2{
+    color: black;
+}
+.text-left-2{
+    color: black;
+    width: 100%;
+}
+.text-right{
+    font-size: 25px;
+    text-align: right;
+    font-weight: 500;
+}

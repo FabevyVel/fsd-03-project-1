@@ -156,3 +156,8 @@ h2{
     color: rgb(255, 255, 255);
     text-align: center;
 }
+@media only screen and (max-width:600px){
+    .main-section{
+        background-color: #419199;
+    }
+}
