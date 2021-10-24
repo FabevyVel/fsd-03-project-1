@@ -1,6 +1,7 @@
 .container{
         
     width: 1142px;
+    height: 1125px;
     margin: 0 auto;
 }
 
@@ -9,11 +10,15 @@
 }
 .size1{
     width:27.33%;
+    height: 1125px;
     border:5px;
+    background-color:rgb(43, 32, 143); 
+
+
 }
 .left{
 
-    background-color:rgb(21, 13, 128)   ; 
+    background-color:rgb(43, 32, 143); 
 }
 .left h2{
     color:rgb(255, 255, 255);
@@ -40,28 +45,28 @@
     font-size: 18px;
 }
 .progress{
-    background-color:rgb(17, 24, 95);
+    background-color:rgb(110, 122, 250);
     height: 12px;
     width: 266px;
     margin-left: 15px;
     
 }
 .progress-done{
-     background-color: white;
+     background-color: rgb(241, 235, 235);
      width:66%;
      height:12px;
     display:flex;
     font-size: 10px;
 }
 .progress-done2{
-    background-color: white;
+    background-color:rgb(241, 235, 235);
     width:70%;
     height:12px;
    display:flex;
    font-size: 10px;
 }
 .progress-done3{
-    background-color: white;
+    background-color: rgb(241, 235, 235);
     width:60%;
     height:12px;
    display:flex;
@@ -81,13 +86,13 @@
     padding-left: 15px;
     font-family:'Times New Roman', Times, serif;
 }
-.content-box-detail h6 {
+.content-box-detail .fontstyle {
     color: white;
-    font-size: 12px;
+    font-size: 16px;
     padding-left: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /*............right..........*/
@@ -99,6 +104,7 @@
     padding-left: 10px;
     padding-right: 10px;
     line-height:  20px;
+    height: 1125px;
 }
 .career-objective{
     padding-top: 10px;;
