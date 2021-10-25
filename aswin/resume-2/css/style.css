@@ -1,8 +1,14 @@
 body{
-    background-image: url(../images/resume.jpg);
+    /*background-image: url(../images/resume.jpg);*/
     height: 2122px;
     background-position: center top;
   }
+  .container{
+    
+    width: 1147px;
+    margin: auto;
+}
+
   .fc {
       display: flex;
   }
@@ -45,155 +51,118 @@ body{
 }
 .header{
     height: 434px;
-     /*background-color: #7e1814;*/
+    background-color: #7e1814;
    
 }
-.header h2 {
-    color: #fff;
-    padding: 24px 24px;
-    font-size: 33px;
+.header-right h2{
+  font-size: 60px;
+    padding-top: 119px;
+    padding-left: 184px;
+    color: white;
     font-family: -webkit-pictograph;
-    }
-    .header h5 {
-      color: #315980;
-      font-size: 26px;
-      font-family: -webkit-pictograph;
-      padding: 2px 6px 18px 20px;
-    }
-    .header p {
-      color: #fff;
-      font-size: 22px;
-      padding: 1px 7px 0px 22px;
-    }
-    .main-content{
-        /* height: 1444px; */
-        background-color: #ffffff;
-    }
-    .content-box{
-      padding: 5px 22px;
-      }
-      .content-box h2{
-       
-        color: #449399;
-        font-size: 25px;
-        font-family: sans-serif;
-        padding: 14px 0px;
-      }
-      .content-box-details{
-        padding:14px 0px 8px 0px;
-      
-      }
-      .content-box-details h3{
-        color: #000000;
-        font-size: 25px;
-        font-family: system-ui;
-      
-      }
-     
-      .content-box-details h4{
-        font-size: 25px;
-        padding: 8px 0px;
-        font-family: sans-serif;
-      
-    } 
-      .content-box-details h5 {
-        color: #474444;
-        font-size: 26px;
-        font-family: -webkit-pictograph;
-       
-      }
-    span .year{
-        display: inline-flex;
-       
-    
-    }
-    .year-details{
-        display: flex;
-        color: #0dafea;
-        font-size: 23px;
-        font-style: italic;
-    }
-    .fi{
-        display: flex;
-    }
-    .content-box-details h6 {
-      color: #616869;
-        font-size: 22px;
-        padding: 11px 0px;
-        font-family: sans-serif;
-      }
-      .content-box-details p {
-        font-weight: 600;
-        color: #010c17;
-        font-size: 21px;
-        font-family: system-ui;
-      }
-      .content-box-details .para p{
-        font-weight: 600;
-        color: #9ea2a7;
-        font-size: 21px;
-        font-family: system-ui;
-      }
-      .sub-content-box li{
-            font-size: 25px;
-        font-weight: 500;
-        font-family: system-ui;
-        list-style: inside;
-        box-sizing: border-box;
-        
-        
-      }
-      
-      .sub-content-box h6 {
-        color: #519aa0;
-        font-size: 20px;
-      }
-     
-       
-    
-      .language{
-        display: flex;
-        font-size: 22px;
-        padding: 25px 3px;
-        font-family: ui-monospace;
-      }
-      .languages-detail-1 p{
-          font-style: italic;
-          color:#989da6 ;
-         
-    
-      }
-      .languages-detail-1 h5{
-        padding:0px 1px 12px 0px;
-      }
-      .interest{
-        display: flex;
-      }
-      .content-box-tag{
-        border: 3px solid #a1abbe;
-        padding: 12px;
-        text-align: center;
-        border-radius: 10px;
-        margin: 10px;
-        /* width: 74px; */
-        display: inline-block;
-        font-size: 22px;
-    }
-    .softskill{
-      display: flex;
-      padding: 0 15px;
-    }
-    
-    .s-skil{
-      
-    }
-    .s-skil span
-    {
-      background-color: #999da6;
-      padding: 22px 28px;
-      display: inline-block;
-      border-radius: 12%;
-      margin: 12px;
-      margin-bottom: 2px;
-      color: white;
-    }
+}
+.header-right h5{
+  font-size: 30px;
+    padding-left: 184px;
+    padding-top: 31px;
+    color: white;
+    font-family: -webkit-pictograph;
+}
+.contact{
+  padding-left: 87px;
+  padding-top: 107px;
+  font-size: 30px;
+  /* font-weight: 600; */
+}
+.contact-link p{
+  padding-bottom: 26px;
+  color: white;
+  }
+
+.left{
+  padding-left: 52px;
+}
+.content-box{
+  padding-bottom: 50px;
+  
+}
+.content-box h2{
+  color: #7e1814;
+    font-weight: 700;
+    font-size: 29px;
+    padding-top: 67px;
+   
+ }
+ .content-box p{
+  font-size: 31px;
+  padding-top: 38px;
+  color: #4e4e4e;
+  /* padding-bottom: 63px; */
+
+ }
+ .s-skil span
+{
+  background-color: #7e1814;
+  display: block;
+  padding: 20px;
+  color: white;
+  margin: 20px;
+  border-radius: 32px;
+  text-align: center;
+}
+.content-box-details h3{
+  color: #000000;
+  font-size: 25px;
+  font-family: system-ui;
+
+}
+.content-box .position{
+  color: #7e1814;
+  font-weight: bolder;
+  padding: 14px 0;
+}
+.content-box .company{
+  font-weight: 700;
+  padding: 20px 0;
+}
+span .year{
+  display: inline-flex;
+ }
+.year-details{
+  display: flex;
+  font-size: 23px;
+  font-style: italic;
+  /* padding-bottom: 10px; */
+}
+.fi{
+  display: flex;
+}
+.sub-content-box li{
+  font-size: 25px;
+font-weight: 500;
+font-family: system-ui;
+list-style: inside;
+box-sizing: border-box;
+padding-bottom: 10px;
+
+
+}
+.content-box-details h6 {
+  color: #616869;
+    font-size: 22px;
+    padding: 11px 0px;
+    font-family: sans-serif;
+  }
+  .content-box-details p {
+    font-weight: 600;
+    color: #010c17;
+    font-size: 21px;
+    font-family: system-ui;
+  }
+  .content-box-details .para p{
+    font-weight: 600;
+    color: #9ea2a7;
+    font-size: 21px;
+    font-family: system-ui;
+  }
+
