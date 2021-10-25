@@ -1,7 +1,10 @@
+#main-content{
+    width: 100%;
+}
 .container{
         
     width: 1142px;
-    height: 1125px;
+    
     margin: 0 auto;
 }
 
@@ -9,24 +12,21 @@
     display: flex;
 }
 .size1{
-    width:27.33%;
-    height: 1125px;
+    width:25.33%;
+    height: 1220px;
     border:5px;
-    background-color:rgb(43, 32, 143); 
+    background-color:rgb(22, 114, 150); 
 
 
 }
-.left{
 
-    background-color:rgb(43, 32, 143); 
-}
 .left h2{
     color:rgb(255, 255, 255);
     display: flex;
     justify-content: center;
     padding: 15px;
-    font-size: 30px;
-    font-family:'Times New Roman', Times, serif;
+    font-size: 37px;
+    font-family:'Galdeano', sans-serif;
 }
 .left h3{
     color:white;
@@ -37,7 +37,7 @@
 
 .content-box h4{
     display:inline inline-block;
-    background-color:rgb(17, 24, 95);
+    background-color:rgb(13, 84, 117);
     padding-left: 15px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -45,29 +45,50 @@
     font-size: 18px;
 }
 .progress{
-    background-color:rgb(110, 122, 250);
+    background-color:rgb(115, 121, 204);
     height: 12px;
-    width: 266px;
+    width: 217px;
     margin-left: 15px;
     
 }
 .progress-done{
-     background-color: rgb(241, 235, 235);
+     background-color: white;
      width:66%;
      height:12px;
     display:flex;
     font-size: 10px;
 }
 .progress-done2{
-    background-color:rgb(241, 235, 235);
-    width:70%;
+    background-color: white;
+    width:30%;
     height:12px;
    display:flex;
    font-size: 10px;
 }
 .progress-done3{
-    background-color: rgb(241, 235, 235);
+    background-color: white;
+    width:50%;
+    height:12px;
+   display:flex;
+   font-size: 10px;
+}
+.progress-done-5{
+    background-color: white;
     width:60%;
+    height:12px;
+   display:flex;
+   font-size: 10px;
+}
+.progress-done-6{
+    background-color: white;
+    width:50%;
+    height:12px;
+   display:flex;
+   font-size: 10px;
+}
+.progress-done-7{
+    background-color: white;
+    width:80%;
     height:12px;
    display:flex;
    font-size: 10px;
@@ -75,7 +96,7 @@
 .performance{
     display:flex;
     justify-content:right;
-    padding-right: 30px;
+    padding-right: 0px;
     font-family: 'Times New Roman', Times, serif;
     color:rgb(242, 243, 241)
 }
@@ -97,21 +118,23 @@
 
 /*............right..........*/
 .size2{
-    width:67.777%;
+    width: 67.777%;
+    
 }
 .right{
     background-color:rgb(242, 243, 241);
     padding-left: 10px;
     padding-right: 10px;
     line-height:  20px;
-    height: 1125px;
+    height: 1220px;
 }
-.career-objective{
-    padding-top: 10px;;
-}
+
+
 .line{
-    background-color: black;
+    background-color: blue;
     padding-right: 10px;
+    height: 5px;
+    opacity:5%;
 }
 .content-box-2 h3{
    
