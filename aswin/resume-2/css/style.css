@@ -3,11 +3,7 @@ body{
     height: 2122px;
     background-position: center top;
   }
-  .container{
-    
-    width: 1147px;
-    margin: auto;
-}
+
 
   .fc {
       display: flex;

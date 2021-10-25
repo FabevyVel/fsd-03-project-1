@@ -1,13 +1,7 @@
 body{
 
-    background-image: url(../7.png);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-attachment: scroll;
-    
-    
-   
-   }
+    line-height: 2;
+    }
    
    .container{
    
@@ -29,10 +23,10 @@ body{
    .container .right-side{
    
      /*background-color: rgba(248, 247, 216, 0.7);*/
-     background-color: wheat;
+     background-color:white;
      padding: 40px;
      width: 1903px;
-     height: 1000px;
+     height: 1110px;
      }
    
      
@@ -55,12 +49,61 @@ body{
        font-size: 20pt;
        
        }
-   
-       hr{
-   
-         background-color:black;
-         
+
+       .about h4{
+         padding-bottom: 1px;
+
+
        }
+
+       .year_percentage h5{
+        
+        padding-bottom: 1px;
+
+       }
+
+       .skill-1{
+
+        padding-bottom: 20px;
+       }
+
+       .skill-2{
+
+        padding-bottom: 20px;
+       }
+
+       .skill-3{
+
+        padding-bottom: 20px;
+       }
+
+       .skill-4{
+
+        padding-bottom: 20px;
+       }
+   
+       .line-2 h2:after{
+         content: "";
+         display: block;
+         width: 750px;
+         height: 1px;
+         background:rgb(15, 15, 15);
+         margin-top: 2px;
+         opacity:50%;
+
+       }
+
+       .line-2 h2:before{
+        content: "";
+        display: block;
+        width: 750px;
+        height: 1px;
+        background: rgb(15, 15, 15);
+        margin-top: 2px;
+        opacity:50%;
+
+      }
+  
    
    
        /* left side*/
@@ -80,7 +123,7 @@ body{
    
        color: white;
        font-size: 30px;
-       padding-bottom: 10px;
+       padding-bottom: 5px;
        padding-left: 10px;
        padding-right: 10px;
      }
@@ -110,16 +153,18 @@ body{
     .left-info h3{
    
      color: white;
-     padding-bottom: 10px;
-     font-weight: bold;
-     padding: 10px;
+     
+    padding-bottom: 0px;
+    padding-right: 51px;
+    padding-left: 10px;
+    font-weight: bold;
     }
    
     .left-info p{
      
      color: white;
      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-     padding-bottom: 20px;
+     padding-bottom: 10px;
      padding-right: 10px;
      padding-left: 10px;
    
@@ -139,6 +184,7 @@ body{
    
     p {
      font-size: 15px;
+     font-family:Arial, Helvetica, sans-serif;
    }
    
    .progress {
