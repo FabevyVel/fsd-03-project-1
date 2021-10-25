@@ -83,6 +83,7 @@ body{
     padding-right: 30px;
     padding-bottom: 6px;
     background-color: #e7f6fb;
+    &#xf3c5;
 }
 .c{
     background-color: #e7f6fb;
@@ -103,6 +104,7 @@ body{
 }
 hr{
     border: 2px solid #075b9b;
+    background-color: #075b9b;
 }
 .similar{
     background-color: #b9e5e4;
@@ -136,4 +138,7 @@ hr{
 }
 .id-2{
     padding-left: 964px;
+}
+.fc i{
+    padding-top: 10px;
 }
