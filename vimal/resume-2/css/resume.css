@@ -1,13 +1,7 @@
 body{
 
-    background-image: url(../7.png);
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-attachment: scroll;
     
-    
-   
-   }
+    }
    
    .container{
    
@@ -56,11 +50,28 @@ body{
        
        }
    
-       hr{
-   
-         background-color:black;
-         
+       .line-2 h2:after{
+         content: "";
+         display: block;
+         width: 750px;
+         height: 1px;
+         background: blue;
+         margin-top: 2px;
+         opacity:50%;
+
        }
+
+       .line-2 h2:before{
+        content: "";
+        display: block;
+        width: 750px;
+        height: 1px;
+        background: blue;
+        margin-top: 2px;
+        opacity:50%;
+
+      }
+  
    
    
        /* left side*/
