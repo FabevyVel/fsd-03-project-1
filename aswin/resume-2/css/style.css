@@ -1,0 +1,164 @@
+body{
+    /*background-image: url(../images/resume.jpg);*/
+    height: 2122px;
+    background-position: center top;
+  }
+
+
+  .fc {
+      display: flex;
+  }
+  .col-1{
+    width: 8.33%;
+    
+}
+.col-2{
+    width: 16.6%;
+}
+.col-3{
+    width:25%;
+}
+.col-4{
+    width: 33.33333333%;
+}
+.col-5{
+    width:41.66666667%;
+}
+.col-6{
+    width:50%;
+}
+.col-7{
+    width:58.33333333% ;
+}
+.col-8{
+    width:66.66666667%;
+}
+.col-9{
+    width:75%;
+}
+.col-10{
+    width:83.33333333%;
+}
+.col-11{
+    width:91.66666667%
+}
+.col-12{
+    width: 100% ;
+}
+.header{
+    height: 434px;
+    background-color: #7e1814;
+   
+}
+.header-right h2{
+  font-size: 60px;
+    padding-top: 119px;
+    padding-left: 184px;
+    color: white;
+    font-family: -webkit-pictograph;
+}
+.header-right h5{
+  font-size: 30px;
+    padding-left: 184px;
+    padding-top: 31px;
+    color: white;
+    font-family: -webkit-pictograph;
+}
+.contact{
+  padding-left: 87px;
+  padding-top: 107px;
+  font-size: 30px;
+  /* font-weight: 600; */
+}
+.contact-link p{
+  padding-bottom: 26px;
+  color: white;
+  }
+
+.left{
+  padding-left: 52px;
+}
+.content-box{
+  padding-bottom: 50px;
+  
+}
+.content-box h2{
+  color: #7e1814;
+    font-weight: 700;
+    font-size: 29px;
+    padding-top: 67px;
+   
+ }
+ .content-box p{
+  font-size: 31px;
+  padding-top: 38px;
+  color: #4e4e4e;
+  /* padding-bottom: 63px; */
+
+ }
+ .s-skil span
+{
+  background-color: #7e1814;
+  display: block;
+  padding: 20px;
+  color: white;
+  margin: 20px;
+  border-radius: 32px;
+  text-align: center;
+}
+.content-box-details h3{
+  color: #000000;
+  font-size: 25px;
+  font-family: system-ui;
+
+}
+.content-box .position{
+  color: #7e1814;
+  font-weight: bolder;
+  padding: 14px 0;
+}
+.content-box .company{
+  font-weight: 700;
+  padding: 20px 0;
+}
+span .year{
+  display: inline-flex;
+ }
+.year-details{
+  display: flex;
+  font-size: 23px;
+  font-style: italic;
+  /* padding-bottom: 10px; */
+}
+.fi{
+  display: flex;
+}
+.sub-content-box li{
+  font-size: 25px;
+font-weight: 500;
+font-family: system-ui;
+list-style: inside;
+box-sizing: border-box;
+padding-bottom: 10px;
+
+
+}
+.content-box-details h6 {
+  color: #616869;
+    font-size: 22px;
+    padding: 11px 0px;
+    font-family: sans-serif;
+  }
+  .content-box-details p {
+    font-weight: 600;
+    color: #010c17;
+    font-size: 21px;
+    font-family: system-ui;
+  }
+  .content-box-details .para p{
+    font-weight: 600;
+    color: #9ea2a7;
+    font-size: 21px;
+    font-family: system-ui;
+  }
+
