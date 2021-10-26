@@ -1,6 +1,5 @@
 #main-content{
     width: 100%;
-
 }
 .container{
         
@@ -26,8 +25,8 @@
     display: flex;
     justify-content: center;
     padding: 15px;
-    font-size: 30px;
-    font-family:'Times New Roman', Times, serif;
+    font-size: 37px;
+    font-family:'Galdeano', sans-serif;
 }
 .left h3{
     color:white;

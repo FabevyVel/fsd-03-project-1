@@ -2,12 +2,12 @@
     box-sizing: border-box;
 }
 body{
-
     background-position: center top;
     background-repeat: no-repeat;
     height: 1600px;
     line-height: 28px;
     font-size: 18px;
+    list-style-position: inside;
 
 }
 #body{
@@ -72,7 +72,7 @@ body{
     text-align: center;
     padding-top: 84px;
     font-size: 50px;
-    color: #1862af;
+    color: #2294d7;
 }
 #contact{
     height: 30px;
@@ -83,6 +83,7 @@ body{
     padding-right: 30px;
     padding-bottom: 6px;
     background-color: #e7f6fb;
+    &#xf3c5;
 }
 .c{
     background-color: #e7f6fb;
@@ -90,19 +91,20 @@ body{
 .head h2{
     padding-top: 20px;
     font-size: 26px;
-    color: #1862af;
+    color: #2294d7;
 }
 #body h3{
     font-size: 26px;
     padding-top: 18px;
     padding-bottom: 24px;
-    color: #1862af;
+    color: #2294d7;
 }
 .head p{
     padding-bottom: 18px;
 }
 hr{
-    border: 2px solid #075b9b;
+    border: 2px solid #2294d7;
+    background-color: #2294d7;
 }
 .similar{
     background-color: #b9e5e4;
@@ -125,7 +127,7 @@ hr{
 .section-6{
     padding-left: 632px;
 }
-.section-7{
+.section-8{
     padding-left: 982px;
 }
 .section-7{
@@ -136,4 +138,10 @@ hr{
 }
 .id-2{
     padding-left: 964px;
+}
+.fc i{
+    padding-top: 10px;
+}
+.section{
+    color: #2294d7;
 }
