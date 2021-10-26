@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   /* background-image: url(../images/11.jpg); */
   background-position: center top;
@@ -179,9 +182,9 @@ body {
   padding-right: 26px;
   padding-top: 30px;
   padding-bottom: 10px;
-  font-weight: bold;
+  font-weight: lighter;
   font-style: italic;
-  color: hsl(0deg 0% 62%);
+  color: black;
 }
 .top-right {
   text-align: right;
@@ -197,4 +200,7 @@ body {
 }
 .ug {
   padding-bottom: 21px;
+}
+.contacts i {
+  padding-right: 10px;
 }
