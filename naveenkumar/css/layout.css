@@ -5,6 +5,7 @@
 body{
     background-position: center top;
     height: 875px;
+    list-style-position: inside;
 }
 .container{
     width: 572px;
