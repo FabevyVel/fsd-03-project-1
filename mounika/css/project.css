@@ -1,5 +1,5 @@
 body {
-  background-image: url(../images/11.jpg);
+  /* background-image: url(../images/11.jpg); */
   background-position: center top;
   background-repeat: no-repeat;
   height: 2123px;
@@ -20,8 +20,8 @@ body {
   height: 199px;
 }
 .title {
-  background-color: hsl(206deg 45% 45%);
-  height: 84px;
+  background: rgb(7,7,93);
+  background: linear-gradient(90deg, rgba(7,7,93,1) 0%, rgba(0,212,255,1) 100%);
 }
 .contacts {
   height: 92px;
@@ -39,8 +39,9 @@ body {
   font-family: calibri;
   font-weight: bold;
   text-align: center;
-  padding-top: 23px;
-}
+  padding-top: 28px;
+  padding-bottom: 17px;
+} 
 .contacts a {
   display: inline-block;
   font-family: calibri;
@@ -131,11 +132,13 @@ body {
   font-weight: bold;
   font-style: italic;
   color: hsl(0deg 0% 62%);
-  /* flex-wrap: wrap; */
 }
-.top-left {
-  /* text-align: start; */
+.top-right{
+  text-align: right;
 }
-.top-right {
-  /* text-align: end; */
+.middle-right{
+  text-align: right;
+}
+.bottom-right{
+  text-align: right;
 }
