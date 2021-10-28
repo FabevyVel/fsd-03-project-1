@@ -1,0 +1,129 @@
+body{
+    background-image:url(../images/Mahalakshmi.png);
+    background-position: center-top;
+    background-repeat: no-repeat;
+    height: 1360px;
+}
+.container{
+    width:960px;
+}
+.header-section h1{
+   padding-top: 15px;
+   padding-left: 38px;
+   font-size: 32px;
+   color:#315980;
+}
+.header-section h5{
+   padding-left: 34px;
+   font-size: 25px;
+   margin-top: -6px;
+   color:#315980;
+}
+.header{
+   background-color:white;
+   height: 100px;
+}
+.header h2{
+ 
+}
+.contacts{
+   background-color:white;
+   height: 104px;
+   margin-top:10px;
+}
+.contacts b{
+ color: #2b2b2b;
+ padding-left: 12px;
+}
+.contacts c{
+padding-left: 36px;
+}
+.main-section{
+   background-color:white;
+   height:1179px;
+}
+.fi-1 p{
+   font-size: 22px;
+   padding-left: 30px;
+   margin-top: -4px;
+}
+.content-box-1 h2{
+   padding-top: 38px;
+   padding-left: 69px;
+   color: #315980;
+}
+.content-box-1 h3{
+   padding-top: 2px;
+   padding-left: 127px;
+   color: #315980;
+}
+.content-box-1 h4{
+   padding-left: 127px;
+   padding-top: 0px;
+   font-size: 19px;
+}
+.hightlight-text-flexwrapper{
+   padding-left: 11px;
+   font-size: 19px;
+}
+.content-box-1 .hightlight-text-1{
+   padding-left: 127px;
+   font-size: 19px;
+}
+.content-box-1 li{
+   padding-left:140px; 
+}
+.content-box-2 strong{
+   padding-left: 70px;
+   font-size: 21px;
+   color: #315980
+}
+ .education h4 {
+   padding-left: 10px;
+   margin-top: -33px;
+   font-size: 19px
+}
+.education h5{
+   padding-left: 11px;
+   font-size: 18px;
+    margin-top: -4px;
+}
+.content-box-3 h2{
+   padding-left: 81px;
+   color: #315980;
+}
+.content-box-tags-1{
+ padding-left: 126px;
+ font-size: 20px;
+}
+.content-box-tags-2 {
+   padding-left: 139px;
+   font-size: 20px;
+   margin-top:-10px;
+   
+}
+.content-box-4 h2{
+   padding-left: 80px;
+   color: #315980;
+}
+.content-box-4 h4{
+   padding-left: 762px;
+   margin-top: 4px;
+   font-size: 17px;
+}
+.content-box-5 strong{
+   padding-left: 79px;
+   font-size: 26px;
+   color: #315980;
+}
+.content-box-details h5{
+   font-size: 20px;
+   padding-left: 10px;
+   margin-top: 2px;
+} 
+.content-box-details h4{
+   font-size: 20px;
+   padding-left: 10px;
+   margin-top: -37px 
+}
+

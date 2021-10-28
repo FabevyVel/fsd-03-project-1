@@ -1,0 +1,17 @@
+#container{
+    margin: 20%;
+    padding: 0%; 
+}
+.container{
+    padding: 30px;
+}
+.main-content{
+    display: flex;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+
+    color: hsl(200deg 96% 57%);
+}
