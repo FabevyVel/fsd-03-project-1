@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   /* background-image: url(../images/11.jpg); */
   background-position: center top;
@@ -20,8 +23,14 @@ body {
   height: 199px;
 }
 .title {
-  background: rgb(7,7,93);
-  background: linear-gradient(90deg, rgba(7,7,93,1) 0%, rgba(0,212,255,1) 100%);
+  background: rgb(7, 7, 93);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 7, 93, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  width: 1500px;
+  margin: auto;
 }
 .contacts {
   height: 92px;
@@ -37,11 +46,11 @@ body {
   font-size: 39px;
   color: white;
   font-family: calibri;
-  font-weight: bold;
+  font-weight: bolder;
   text-align: center;
   padding-top: 28px;
   padding-bottom: 17px;
-} 
+}
 .contacts a {
   display: inline-block;
   font-family: calibri;
@@ -50,12 +59,13 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   font-weight: bold;
+  padding-bottom: 44px;
 }
 .main-section h3 {
   font-family: calibri;
   font-size: 34px;
-  padding-left: 5px;
-  padding-top: 41px;
+  padding-left: 53px;
+  padding-top: 45px;
   color: black;
   font-weight: bold;
 }
@@ -63,54 +73,95 @@ body {
   font-family: calibri;
   font-size: 30px;
   font-style: italic;
-  padding-left: 3px;
-  padding-top: 30px;
-  padding-bottom: 22px;
+  padding-left: 57px;
+  padding-top: 32px;
+  padding-bottom: 33px;
   font-weight: light;
   color: hsl(0deg 0% 22%);
 }
-.contacts {
-  border-bottom: solid 6px;
-  color: hsl(189deg 46% 45%);
-  width: 1499px;
+.contacts:after {
+  content: "";
+  display: block;
+  height: 6px;
+  background: rgb(7, 7, 93);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 7, 93, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin-top: 24px;
+  width: 1500px;
   margin: auto;
 }
-.section-1 {
-  border-bottom: solid 8px;
-  color: hsl(189deg 46% 45%);
+.section-1:after {
+  content: "";
+  display: block;
+  height: 6px;
+  background: rgb(7, 7, 93);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 7, 93, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin-top: 24px;
   width: 1402px;
   margin: auto;
-  padding-bottom: 10px;
 }
-.section-2 {
-  border-bottom: solid 8px;
-  color: hsl(189deg 46% 45%);
+.section-2:after {
+  content: "";
+  display: block;
+  height: 6px;
+  background: rgb(7, 7, 93);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 7, 93, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin-top: 24px;
   width: 1402px;
   margin: auto;
-  padding-bottom: 10px;
 }
-.section-3 {
-  border-bottom: solid 8px;
-  color: hsl(189deg 46% 45%);
+.section-3:after {
+  content: "";
+  display: block;
+  height: 6px;
+  background: rgb(7, 7, 93);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 7, 93, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin-top: 24px;
   width: 1402px;
   margin: auto;
-  padding-bottom: 10px;
 }
-.section-4 {
-  border-bottom: solid 8px;
-  color: hsl(189deg 46% 45%);
+.section-4:after {
+  content: "";
+  display: block;
+  height: 6px;
+  background: rgb(7, 7, 93);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 7, 93, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin-top: 24px;
   width: 1402px;
   margin: auto;
-  padding-top: 10px;
-  padding-bottom: 23px;
 }
-.section-5 {
-  border-bottom: solid 8px;
-  color: hsl(189deg 46% 45%);
+.section-5:after {
+  content: "";
+  display: block;
+  height: 6px;
+  background: rgb(7, 7, 93);
+  background: linear-gradient(
+    90deg,
+    rgba(7, 7, 93, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  margin-top: 24px;
   width: 1402px;
   margin: auto;
-  padding-top: 10px;
-  padding-bottom: 23px;
 }
 .w-50 {
   width: 50%;
@@ -118,27 +169,38 @@ body {
 .main-section h5 {
   font-family: calibri;
   font-size: 30px;
-  padding-left: 3px;
+  padding-left: 53px;
   padding-top: 30px;
+  padding-right: 60px;
   font-weight: bolder;
   color: black;
 }
 .main-section ul {
   font-family: calibri;
   font-size: 30px;
-  padding-left: 3px;
+  padding-left: 85px;
+  padding-right: 26px;
   padding-top: 30px;
   padding-bottom: 10px;
-  font-weight: bold;
+  font-weight: lighter;
   font-style: italic;
-  color: hsl(0deg 0% 62%);
+  color: black;
 }
-.top-right{
+.top-right {
   text-align: right;
 }
-.middle-right{
+.middle-right {
   text-align: right;
 }
-.bottom-right{
+.bottom-right {
   text-align: right;
+}
+.description {
+  padding-bottom: 17px;
+}
+.ug {
+  padding-bottom: 21px;
+}
+.contacts i {
+  padding-right: 10px;
 }

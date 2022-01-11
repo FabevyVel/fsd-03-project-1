@@ -1,0 +1,110 @@
+
+element.style {
+}
+
+.header h2{
+ 
+    padding-left: 30px;
+    color: #0099CC;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    font-weight: lighter;
+ }
+ .header h3{
+ 
+    padding-left: 30px;
+    color: #0099CC;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration:none;
+    font-weight: lighter;
+ }
+ .header h4{
+ 
+   padding-left: 30px;
+   font-size: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration:none;
+   font-weight: lighter;
+}
+ .fi{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.p{
+   padding-left: 30px;
+   font-size: 15px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-decoration:none;
+   font-weight: lighter;
+}
+.edu{
+   color: #0099CC;
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration:none;
+   font-weight: lighter;
+}
+.work{
+   color: #0099CC;
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration:none;
+   font-weight: lighter;
+}
+.list ul{
+   list-style: none;
+   padding-top: 10px;
+}
+.list li{
+   padding-left: 140px;
+   font-size: 15px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.academic{
+   color:rgb(99, 142, 218);
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration:none;
+   font-weight: lighter;
+}
+.header h3{
+   padding-right: 300px;
+   font-size: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration:none;
+   font-weight: lighter;
+}
+.description{
+   padding-left: 180px;
+   font-size: 15px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   text-decoration:none;
+   font-weight: lighter;
+}
+.skills{
+   color:rgb(99, 142, 218);
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration:none;
+   font-weight: lighter;
+  }
+
+.fa_custom {
+color: #0099CC
+}
+.academic{
+   color: #0099CC
+}
+.skills{
+   color: #0099CC
+}
+.list1 ul{
+   list-style: none;
+   padding-top: 10px;
+}
+.list1 li{
+   padding-left: 140px;
+   font-size: 15px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
